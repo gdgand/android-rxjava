@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".queue.QueueActivity" />
 
+        <activity android:name=".scroll.FasterListActivity" />
+
         <service android:name=".fcm.message.MessageReceiverService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

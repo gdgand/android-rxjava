@@ -6,14 +6,13 @@
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_fastlist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="?attr/actionBarSize"
-        app:title="Main Home" />
-
+        app:title="Faster Scroll" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_main"
+        android:id="@+id/list_fasterlist"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
