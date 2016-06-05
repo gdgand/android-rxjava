@@ -1,4 +1,4 @@
-package com.gdgand.rxjava.rxjavasample.adapter;
+package com.gdgand.rxjava.rxjavasample.main.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -49,6 +49,14 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
             return "";
         }
         return textList.get(position);
+    }
+
+    public void add(String title) {
+        textList.add(title);
+    }
+
+    public void addAll(List<String> titles) {
+        textList.addAll(titles);
     }
 
     @Override

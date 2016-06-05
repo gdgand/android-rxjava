@@ -34,6 +34,10 @@ android {
         }
     }
 
+    sourceSets {
+        main.java.srcDirs += "src/main/java-fcm"
+    }
+
     lintOptions {
         abortOnError false
     }
@@ -49,6 +53,21 @@ android {
         maxProcessCount Math.max(1, ((int) (Runtime.getRuntime().availableProcessors() / 2)))
     }
 
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("keystore/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
     configurations.all {
         resolutionStrategy {
             force "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
@@ -62,7 +81,8 @@ dependencies {
         jcenter()
     }
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
+
+    // support library
     compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     compile "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
     compile "com.android.support:support-v13:${rootProject.ext.supportLibVersion}"
@@ -71,18 +91,30 @@ dependencies {
     compile "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
     compile "com.android.support:design:${rootProject.ext.supportLibVersion}"
 
+    // dagger
     apt "com.google.dagger:dagger-compiler:${rootProject.ext.dagger2Version}"
     compile "com.google.dagger:dagger:${rootProject.ext.dagger2Version}"
     provided 'javax.annotation:jsr250-api:1.0'
 
+    // butterknife
     compile "com.jakewharton:butterknife:${rootProject.ext.butterKnifeVersion}"
+    apt "com.jakewharton:butterknife-compiler:${rootProject.ext.butterKnifeVersion}"
 
+    // rxjava
     compile "io.reactivex:rxandroid:${rootProject.ext.rxAndroidVersion}"
     compile "io.reactivex:rxjava:${rootProject.ext.rxJavaVersion}"
 
+    // retrofit
     compile "com.squareup.retrofit2:retrofit:${rootProject.ext.retrofitVersion}"
     compile "com.squareup.okhttp3:okhttp:${rootProject.ext.okhttpVersion}"
 
+    // fcm
+    compile "com.google.firebase:firebase-messaging:${rootProject.ext.fcmVersion}"
+
+    // eventbus
+    compile "org.greenrobot:eventbus:${rootProject.ext.eventBusVersion}"
+
+    // android test
     androidTestCompile "com.android.support.test:runner:${rootProject.ext.testRunnerVersion}"
     androidTestCompile "com.android.support.test:rules:${rootProject.ext.testRunnerVersion}"
     androidTestCompile "com.android.support.test.espresso:espresso-core:${rootProject.ext.espressoVersion}"
@@ -99,3 +131,6 @@ dependencies {
 retrolambda {
     javaVersion JavaVersion.VERSION_1_7
 }
+
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'
