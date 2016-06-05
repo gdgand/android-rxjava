@@ -17,15 +17,18 @@ ext {
     targetSdkVersion = 23
     rxAndroidVersion = "1.2.0"
     rxJavaVersion = "1.1.5"
+    fcmVersion = "9.0.2"
+    eventBusVersion = "3.0.0"
 }
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.1.2'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+        classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 
