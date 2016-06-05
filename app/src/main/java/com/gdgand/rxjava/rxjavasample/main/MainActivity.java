@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import com.gdgand.rxjava.rxjavasample.R;
 import com.gdgand.rxjava.rxjavasample.main.adapter.MainAdapter;
 import com.gdgand.rxjava.rxjavasample.queue.QueueActivity;
+import com.gdgand.rxjava.rxjavasample.scroll.FasterListActivity;
 
 import java.util.Arrays;
 
@@ -35,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         MainAdapter adapter = new MainAdapter(MainActivity.this);
+        adapter.addAll(Arrays.asList(TITLES));
         rvMain.setAdapter(adapter);
         rvMain.setLayoutManager(new LinearLayoutManager(MainActivity.this));
 
-        adapter.addAll(Arrays.asList(TITLES));
 
         adapter.setOnItemClickListener((adapter1, position) -> {
             switch (position) {
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, QueueActivity.class));
                     break;
                 case 1:
+                    startActivity(new Intent(MainActivity.this, FasterListActivity.class));
                     break;
                 case 2:
                     break;

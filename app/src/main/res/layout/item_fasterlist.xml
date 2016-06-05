@@ -7,9 +7,9 @@
     android:padding="@dimen/activity_vertical_margin">
 
     <TextView
-        android:id="@+id/tv_main_item"
-        android:layout_width="match_parent"
+        android:id="@+id/tv_item_fasterlist"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceLarge" />
+        android:textSize="20sp" />
 
 </LinearLayout>
