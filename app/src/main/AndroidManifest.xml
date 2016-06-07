@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".queue.QueueActivity" />
+        <activity android:name=".queue.Queue1Activity" />
+        <activity android:name=".queue.Queue2Activity" />
 
         <activity android:name=".scroll.FasterListActivity" />
 

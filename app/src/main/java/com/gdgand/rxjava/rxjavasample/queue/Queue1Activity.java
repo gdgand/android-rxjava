@@ -23,7 +23,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import rx.subjects.PublishSubject;
 
-public class QueueActivity extends AppCompatActivity {
+public class Queue1Activity extends AppCompatActivity {
 
     @BindView(R.id.tv_queue_status)
     TextView tvQueueStatus;
