@@ -15,14 +15,6 @@ android {
         versionName "1.0"
     }
 
-    productFlavors {
-        dev {       // demo version
-            minSdkVersion 21
-        }
-        play {     // release version
-        }
-    }
-
     buildTypes {
         debug {
 
@@ -66,10 +58,6 @@ android {
             keyPassword "android"
         }
     }
-}
-
-repositories {
-    jcenter()
 }
 
 dependencies {
