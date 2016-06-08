@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
@@ -21,6 +24,7 @@ public class Sender {
     public static void main(String[] args) throws IOException {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(FCM_URL)
+                .client(okHttpClient())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         for (int i = 0; i < 20; i++) {
@@ -37,6 +41,14 @@ public class Sender {
         }
     }
 
+    private static OkHttpClient okHttpClient() {
+        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+        logging.setLevel(HttpLoggingInterceptor.Level.NONE);
+        // logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+        return new OkHttpClient.Builder()
+                .addInterceptor(logging)
+                .build();
+    }
 
     public interface FirebaseCM {
         @POST("/fcm/send")
