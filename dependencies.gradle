@@ -1,0 +1,49 @@
+ext {
+    // Build SDK versions
+    buildToolsVersion = '23.0.2'
+    minSdkVersion = 14
+    compileSdkVersion = 23
+    targetSdkVersion = 22
+
+    // Dependencies - Support Library
+    appCompat = 
+            'com.android.support:appcompat-v7:23.4.0'
+    design = 
+            'com.android.support:design:23.4.0'
+    recyclerView = 
+            'com.android.support:recyclerview-v7:23.4.0'
+
+    // Dependencies - Data handling
+    eventBus =
+            'org.greenrobot:eventbus:3.0.0'
+
+    // Dependencies - Dependency injection
+    butterknife = 
+            'com.jakewharton:butterknife:8.0.1'
+    butterknifeCompiler = 
+            'com.jakewharton:butterknife-compiler:8.0.1'
+    dagger = 
+            'com.google.dagger:dagger:2.4'
+    daggerCompiler = 
+            'com.google.dagger:dagger-compiler:2.4'
+    jsr250 =
+            'javax.annotation:jsr250-api:1.0'
+
+    // Dependencies - Network
+    firebaseMessaging =
+            'com.google.firebase:firebase-messaging:9.0.2'
+    okHttp = 
+            'com.squareup.okhttp3:okhttp:3.3.1'
+    okHttpLoggingInterceptor =
+            'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    retrofit =
+            'com.squareup.retrofit2:retrofit:2.0.2'
+    retrofitConverterGson =
+            'com.squareup.retrofit2:converter-gson:2.0.2'
+
+    // Dependencies - Rx
+    rxAndroid =
+            'io.reactivex:rxandroid:1.2.0'
+    rxJava =
+            'io.reactivex:rxjava:1.1.5'
+}

@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.gdgand.rxjava.rxjavasample"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    productFlavors {
+        dev {       // demo version
+            minSdkVersion 21
+        }
+        play {     // release version
+        }
+    }
+
+    buildTypes {
+        debug {
+
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/java-fcm"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize "3g"
+        incremental true
+        maxProcessCount Math.max(1, ((int) (Runtime.getRuntime().availableProcessors() / 2)))
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("keystore/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    apt rootProject.ext.butterknifeCompiler
+    apt rootProject.ext.daggerCompiler
+
+    compile rootProject.ext.appCompat
+    compile rootProject.ext.butterknife
+    compile rootProject.ext.dagger
+    compile rootProject.ext.design
+    compile rootProject.ext.eventBus
+    compile rootProject.ext.firebaseMessaging
+    compile rootProject.ext.okHttp
+    compile rootProject.ext.recyclerView
+    compile rootProject.ext.retrofit
+    compile rootProject.ext.rxAndroid
+    compile rootProject.ext.rxJava
+
+    provided rootProject.ext.jsr250
+}
+
+retrolambda {
+    javaVersion JavaVersion.VERSION_1_7
+}
+
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

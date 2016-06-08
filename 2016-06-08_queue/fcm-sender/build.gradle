@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "com.example.Sender"
+
+dependencies {
+   	compile rootProject.ext.okHttp
+   	compile rootProject.ext.okHttpLoggingInterceptor
+    compile rootProject.ext.retrofit
+    compile rootProject.ext.retrofitConverterGson
+}
