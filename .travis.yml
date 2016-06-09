@@ -1,0 +1,26 @@
+language: android
+sudo: required
+dist: precise
+
+android:
+  components:
+    - platform-tools
+    - tools
+    - build-tools-23.0.3
+    - android-23
+    - extra-android-m2repository
+    - extra-google-m2repository
+
+jdk:
+  - oraclejdk8
+
+env:
+  - GRADLE_OPTS="-XX:MaxPermSize=4096M" CI=true
+
+script:
+  - ./gradlew clean build
+
+cache:
+  directories:
+    - $HOME/.gradle/caches
+    - $HOME/.gradle/wrapper
