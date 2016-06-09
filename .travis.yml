@@ -1,0 +1,21 @@
+language: android
+sudo: false
+
+android:
+  components:
+    - platform-tools
+    - tools
+    - build-tools-23.0.3
+    - android-23
+    - extra-android-m2repository
+    - extra-google-m2repository
+
+jdk:
+  - oraclejdk8
+
+script:
+  - ./gradlew build
+
+cache:
+  directories:
+    - $HOME/.gradle
