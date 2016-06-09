@@ -39,9 +39,9 @@ android {
     }
 
     dexOptions {
-        javaMaxHeapSize "3g"
         incremental true
-        maxProcessCount Math.max(1, ((int) (Runtime.getRuntime().availableProcessors() / 2)))
+        javaMaxHeapSize "3g"
+        preDexLibraries = !rootProject.ext.ci
     }
 
     packagingOptions {

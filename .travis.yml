@@ -1,5 +1,6 @@
 language: android
-sudo: false
+sudo: required
+dist: precise
 
 android:
   components:
@@ -13,9 +14,13 @@ android:
 jdk:
   - oraclejdk8
 
+env:
+  - GRADLE_OPTS="-XX:MaxPermSize=4096M" CI=true
+
 script:
-  - ./gradlew build
+  - ./gradlew clean build
 
 cache:
   directories:
-    - $HOME/.gradle
+    - $HOME/.gradle/caches
+    - $HOME/.gradle/wrapper
