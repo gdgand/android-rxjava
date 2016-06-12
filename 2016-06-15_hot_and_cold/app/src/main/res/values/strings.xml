@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GDG Android RxJava Hot And Cold Observable</string>
+
+    <string name="cold">COLD</string>
+    <string name="hot">HOT</string>
+    <string name="submit">확인</string>
+    <string name="subscribe1">Subscribe1</string>
+    <string name="subscribe2">Subscribe2</string>
+    <string name="visible_type_all">모두보기</string>
+    <string name="visible_type_odd">홀수보기</string>
+    <string name="visible_type_even">짝수보기</string>
+    <string name="message_progress">요청중입니다.</string>
+</resources>
