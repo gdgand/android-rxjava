@@ -43,10 +43,31 @@ ext {
             'com.squareup.retrofit2:retrofit:2.0.2'
     retrofitConverterGson =
             'com.squareup.retrofit2:converter-gson:2.0.2'
+    retrofitAdapterRxJava =
+            'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+
 
     // Dependencies - Rx
     rxAndroid =
             'io.reactivex:rxandroid:1.2.0'
     rxJava =
             'io.reactivex:rxjava:1.1.5'
+    rxLifecycle =
+            'com.trello:rxlifecycle:0.6.1'
+    rxLifecycleComponents =
+            'com.trello:rxlifecycle-components:0.6.1'
+    rxReplayingShare =
+            'com.jakewharton.rx:replaying-share:1.0.1'
+
+    // Dependencies - Stream
+    lightWeightStream =
+            'com.annimon:stream:1.0.9'
+
+    // Dependencies - Test
+    assertjAndroid =
+            'com.squareup.assertj:assertj-android:1.1.1'
+    mockitoCore =
+            'org.mockito:mockito-core:1.10.19'
+    junit =
+            'junit:junit:4.12'
 }
