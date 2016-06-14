@@ -39,7 +39,7 @@ public class ImgurMvpPresenterTest {
 	@Before
 	public void setup() {
 		presenter.attachView(view);
-		given(view.bindToLifecycle()).willReturn(pass());
+		given(view.bind()).willReturn(pass());
 		given(view.injectProgress()).willReturn(pass());
 	}
 
@@ -63,7 +63,7 @@ public class ImgurMvpPresenterTest {
 
 		// then
 		proxy.advanceBy(1, TimeUnit.SECONDS);
-		verify(view, times(1)).bindToLifecycle();
+		verify(view, times(1)).bind();
 		verify(view, times(1)).injectProgress();
 		verify(view, times(1)).showTopics(topics);
 	}
