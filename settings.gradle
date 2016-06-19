@@ -1,1 +1,1 @@
-include ':2016-06-08_queue:app', ':2016-06-08_queue:fcm-sender', ':2016-06-15_hot_and_cold:app'
+include ':2016-06-08_queue:app', ':2016-06-08_queue:fcm-sender', ':2016-06-15_hot_and_cold:app', ':2016-06-22_operators_creating:app'
