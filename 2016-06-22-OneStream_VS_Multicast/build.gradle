@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.gdgand.rxjava.onestreamvsmulticast"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    apt rootProject.ext.butterknifeCompiler
+    apt rootProject.ext.daggerCompiler
+
+    compile rootProject.ext.appCompat
+    compile rootProject.ext.butterknife
+    compile rootProject.ext.dagger
+    compile rootProject.ext.design
+    compile rootProject.ext.rxAndroid
+    compile rootProject.ext.rxJava
+
+    provided rootProject.ext.jsr250
+}
+
+retrolambda {
+    javaVersion JavaVersion.VERSION_1_7
+}
