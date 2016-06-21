@@ -19,16 +19,16 @@ public class ImgurMvpPresenter extends BasePresenter<ImgurMvpView> {
 	}
 
 	public void refreshTopics() {
-//		imgurApi.defaultTopics()
-//			.map(TopicResponse::getData)
-//			.subscribeOn(Schedulers.io())
-//			.observeOn(AndroidSchedulers.mainThread())
-//			.compose(view().bind())
-//			.compose(view().injectProgress())
-//			.subscribe(topics -> {
-//				view().showTopics(topics);
-//			}, throwable -> {
-//				view().showThrowable(throwable);
-//			});
+		imgurApi.defaultTopics()
+			.map(TopicResponse::getData)
+			.subscribeOn(Schedulers.io())
+			.observeOn(AndroidSchedulers.mainThread())
+			.compose(view().bind())
+			.compose(view().injectProgress())
+			.subscribe(topics -> {
+				view().showTopics(topics);
+			}, throwable -> {
+				view().showThrowable(throwable);
+			});
 	}
 }
