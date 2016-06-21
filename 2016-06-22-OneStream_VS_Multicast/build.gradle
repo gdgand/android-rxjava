@@ -19,6 +19,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    lintOptions {
+        abortOnError false
+    }
     compileOptions {
         targetCompatibility 1.8
         sourceCompatibility 1.8
@@ -34,11 +39,6 @@ dependencies {
     compile rootProject.ext.butterknife
     compile rootProject.ext.dagger
     compile rootProject.ext.design
-    compile rootProject.ext.eventBus
-    compile rootProject.ext.firebaseMessaging
-    compile rootProject.ext.okHttp
-    compile rootProject.ext.recyclerView
-    compile rootProject.ext.retrofit
     compile rootProject.ext.rxAndroid
     compile rootProject.ext.rxJava
 
