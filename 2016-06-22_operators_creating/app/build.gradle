@@ -58,6 +58,7 @@ dependencies {
     compile rootProject.ext.retrofitAdapterRxJava
     compile rootProject.ext.rxAndroid
     compile rootProject.ext.rxJava
+    compile rootProject.ext.rxAsync
     compile rootProject.ext.rxReplayingShare
     compile rootProject.ext.rxLifecycle
     compile rootProject.ext.rxLifecycleComponents

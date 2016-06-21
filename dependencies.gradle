@@ -58,6 +58,8 @@ ext {
             'com.trello:rxlifecycle-components:0.6.1'
     rxReplayingShare =
             'com.jakewharton.rx:replaying-share:1.0.1'
+    rxAsync =
+            'io.reactivex:rxjava-async-util:0.21.0'
 
     // Dependencies - Stream
     lightWeightStream =
