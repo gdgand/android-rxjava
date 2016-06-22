@@ -14,7 +14,7 @@ public class DeferExample {
     }
 
     public Observable<String> nameObservable() {
-//        return Observable.just(name);
-        return Observable.defer(() -> Observable.just(name));
+        return Observable.just(name);
+//        return Observable.defer(() -> Observable.just(name));
     }
 }

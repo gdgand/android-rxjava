@@ -13,7 +13,7 @@ import rx.schedulers.TestScheduler;
 import rx.util.async.Async;
 
 /**
- * To work on unit tests, switch the Test Artifact in the Build Variants view.
+ * http://reactivex.io/documentation/operators.html#creating
  */
 public class CreatingOperatorTest {
 
@@ -151,5 +151,16 @@ public class CreatingOperatorTest {
         subscriber.awaitTerminalEvent();
         subscriber.assertCompleted();
         subscriber.assertValue(1);
+    }
+
+    /**
+     * https://github.com/ReactiveX/RxJava/wiki/Creating-Observables
+     */
+    @Test public void testTimerOperator() {
+        System.out.println("testTimerOperator");
+        TestScheduler testScheduler = new TestScheduler();
+        Observable<Long> o = Observable.timer(100, TimeUnit.MILLISECONDS, testScheduler);
+        o.subscribe(System.out::print);
+        testScheduler.advanceTimeBy(1000, TimeUnit.MILLISECONDS);
     }
 }
