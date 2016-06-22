@@ -1,0 +1,436 @@
+[20160605 05:23:08] heyden : :+1: 
+[20160605 05:23:32] realignist : 적용 완료했습니다 :slightly_smiling_face:
+[20160605 05:26:49] realignist : Observable로 BlockingQueue를 이용해 프로듀서-컨슈머 패턴을 구현하는 글입니다. 도움이 될 것 같아서 투척합니다. <https://dzone.com/articles/consuming-javautilconcurrentblockingqueue-as-rxobs>
+[20160605 08:28:18] nobrain_steve : <!channel>: 짧은 시간 안에 들어온 FCM 으로 들어온 메세지를 일부 메세지만 처리할 수 있도록 하는 Queue 예제 올렸습니다.
+[20160605 08:28:20] nobrain_steve : <https://github.com/gdgand/android-rxjava>
+[20160605 08:30:23] nobrain_steve : 제 개인 프로젝트로 FCM 등록 했고요. 다들 이용하실 수 있게 debug.keystore 도 같이 등록했습니다.
+앱 프로젝트 실행하시고 로그로 나오는 registration-id 를 fcm-sender module 내의 코드에 넣으시고 실행하시면 되요.
+[20160605 08:32:44] realignist : 역시 초고수님 갓..
+[20160605 08:35:01] mario : <@nobrain_steve> 안그래도 푸시 폭탄 치워야 했는데 감사합니다^^
+[20160605 08:38:28] nobrain_steve : <https://github.com/gdgand/android-rxjava/wiki/Example-Queue>
+[20160605 08:38:39] nobrain_steve : 위키에 실행하는 방법 등록했어요.
+[20160605 08:46:18] ward : 감사합니다*^^*
+[20160605 08:58:43] moltak : 오!감사합니다! :)
+[20160605 09:04:24] nobrain_steve : 이제 람다 동작이랑 rxjava 쓰는 이유를 해야하는데 귀찮아서 람다는 예전에 쓴 블로그 글로 대체할까 생각 중이고
+rxjava 쓰는 이유는 Jake Wharton 슬라이드로 대체할까 고민 중이네요 - _-;
+[20160605 09:07:59] pluulove : 용욱님의 rxandroid 슬라이드도 있죠 ㅋ
+[20160605 09:09:11] nobrain_steve : realm 에 있는거죠?
+[20160605 09:15:33] pluulove : 몇넌전에 발표한 자료인듯
+[20160605 09:16:02] pluulove : 작년이네요 ㅋ
+[20160605 09:16:03] pluulove : <http://www.slideshare.net/gdgkorea/gkac-2015-apr-rx-android>
+[20160605 09:19:23] nobrain_steve : 아...
+[20160605 09:19:36] nobrain_steve : ㅎㅎ 이것도 참고해야겠네요
+[20160605 09:21:26] pluulove : <http://deview.kr/2014/session?seq=4>
+[20160605 09:21:49] pluulove : 저에게 처음 RxJava 관련 자료는 이것인듯
+[20160605 09:21:56] nobrain_steve : 아 정열님 슬라이드가 제가 처음 rx 를 써야겠다 맘 먹은 슬라이드긴 하죠 ㅎ_ㅎ
+[20160605 09:22:19] pluulove : 넵 저도 같은 마음
+[20160605 09:22:30] nobrain_steve : 근데 그 이전에 왜 rx 같은 솔루션을 찾았는지 이야기를 하려고요
+[20160605 09:22:48] nobrain_steve : 그게 jake wharton 이 소개해준 슬라이드에 딱 들어있거든요.
+[20160605 09:23:00] pluulove : 뭐니뭐니해도 그게 핵심이죠
+[20160605 09:23:44] nobrain_steve : 람다 동작은 java 위원회 슬라이드로 대체하고
+rx 쓰는 이유는 jake wharton 슬라이드로 대체해야겠네요 ㅎ
+[20160605 09:23:50] nobrain_steve : 하기 싫으니 썰로 풀기 -,.-
+[20160605 09:24:08] pluulove : 자료 배포가... 가장 쉬...=3=3=3
+[20160605 09:24:25] pluulove : 그걸로 시작만해도 이미 반은 성공
+[20160605 09:35:45] nobrain_steve : ```
+1. 람다 동작의 이해
+<http://www.slideshare.net/jaxlondon2012/lambda-a-peek-under-the-hood-brian-goetz>
+p.19~
+
+2. RxJava 를 쓰는 이유
+<https://speakerdeck.com/jakewharton/android-development-with-kotlin-androidkw-number-001>
+p.11
+<http://www.slideshare.net/jpaumard/java-8-stream-api-and-rxjava-comparison>
+p.213~
+```
+[20160605 09:36:14] nobrain_steve : 수욜에 뵈요
+[20160605 09:36:16] nobrain_steve : ㅋㅋ
+[20160605 09:53:47] moka : 감사합니다 !!
+[20160605 09:56:10] heyden : 감사합니다:+1: :+1: 
+[20160605 10:47:14] mario : 감사합니다. :grin:
+[20160605 15:28:12] nobrain_steve : slow 테스트를 해야하는데 realm 이 너무 빨라서....slow 테스트가 안되네요 -_-;
+[20160605 15:28:19] nobrain_steve : 강제로 thread.sleep 줘야할판...
+[20160606 02:11:25] jasonkim : 이렇게.realm찬양을...
+[20160606 03:02:05] recoverlee : android weekly에 보니  rxandorid 관련 연재 글이 있네요~ 
+<https://medium.com/crunching-rxandroid/crunching-rxandroid-intro-c27eb6f009ea#.k2nw2gl2r>
+[20160607 01:39:52] nobrain_steve : 스터디 내일 저녁 7:30분입니다.
+잊지마thㅔ요~
+[20160607 01:47:43] mireuk : 넵넵
+[20160607 02:06:15] gaemi : 넵 ㅎ
+지금 공유해주신 소스 보고 있는 중인데요…
+throttleLast 를 주신 이유가 궁금하네요. ㅎㅎ 
+내일 들을수 있겠지요?
+[20160607 02:13:08] leeyoungchan : <@gaemi>:  일정시간동안 받은 메세지 중에 라스트 1건만 볼려고 쓴게 아닐까용
+[20160607 02:15:20] nobrain_steve : 그용도에요.
+[20160607 02:16:01] nobrain_steve : 사실 저흰 푸시안에 index 를 넣어서 나중에 isLastPush 같은 filter 처리를 하는데 예제에는 그런걸 넣기 힘들어서 쓰로틀라스트를 썼어요
+[20160607 02:18:51] gaemi : 아하. 그렇군요.
+일반적인 큐의 용도로 생각하고 있었어요. ㅎㅎ
+설명 감사합니다.
+[20160607 02:20:08] gaemi : 그나저나 instant run 은 아직도 오류가 많군요.. ㅠㅠ
+[20160607 02:25:59] nobrain_steve : 음..한번 instant run 하면...가급적이면 기기 연결 같은거 손 안대셔야...
+[20160607 03:38:50] nobrain_steve : 여러곳에서 onNext 로 데이터를 주입받을 수 있는 것은 subject 밖에 없을까요?
+[20160607 03:40:42] nobrain_steve : 그거밖에 없네용 =_=
+[20160607 04:53:07] kunny : instant run 은 저도 항상 끄고씁니다. 오류나서 리빌드하는 시간이 더 걸려서..
+[20160607 04:53:30] dalinaum : 이렇게 된 이상 쿠니옹이 고쳐주세요
+[20160607 04:53:39] pluulove : 기다리겠습니다 쿠니옹
+[20160607 04:55:15] kunny : <@U04E3QZQ8>: 안스개발자님 이러시면 안됩니다
+[20160607 06:42:28] kunny : undefined
+[20160607 06:43:07] kunny : 위클리 정리하면서 Rxjava 스터디 글 쓰고있는데, 의외로 사진 찍은게 별로 없었네요 ㅇㅅㅇ
+[20160607 06:54:53] jasonkim : 역시 촋의 스윀
+[20160607 06:55:18] jasonkim : 참고로 커니님이나 리나님, 플루님 촋 의 반열에 모든 분들은 고유의 스윀 을 가지고 계시죠.
+[20160607 06:59:34] kunny : <@jasonkim>: 석용님의 스웩도 보여주세요
+[20160607 06:59:50] jasonkim : 아직 전투력이 부족해서 …
+[20160607 07:00:02] jasonkim : 마치 촋의 스윀이란 초싸이언의 불꽃과도 같...
+[20160607 07:00:39] moka : 촋촋 !! 
+[20160607 07:00:53] jasonkim : 모카님도 나름 스윀이..
+[20160607 07:02:14] moka : 전 응애응애..  아장아장..
+[20160607 07:41:11] kunny : <!channel>: 스터디 참여자 목록 추가해 두었습니다. 혹시 이름이나 슬랙 id 잘못된 분은 알려주세요~ <https://github.com/gdgand/android-rxjava/wiki/%EC%B0%B8%EC%97%AC%EC%9E%90-%EB%AA%A9%EB%A1%9D>
+[20160607 07:41:41] realignist : 내일 뵐 때 GitHub id도 추가하면 좋을 것 같아요! :smile:
+[20160607 07:42:23] hix : 감사합니다 : D
+[20160607 07:42:27] mario : 확인했습니다. 감사합니다.
+[20160607 07:43:04] mireuk : 확인했습니다 :slightly_smiling_face:
+[20160607 07:43:52] ggikkopark : 확인했습니다! :slightly_smiling_face:
+[20160607 07:43:58] taehwan : :+1: :clap: :tada: 
+[20160607 09:20:56] moltak : 확인했어요@
+[20160607 09:29:18] heyden : 확인했습니다!
+[20160607 10:00:56] mugku : 확인했습니다!
+[20160607 10:09:06] moka : 확인했습니다 !!
+[20160607 10:09:57] flask : 확인했습니다
+[20160607 10:36:07] hassanabid : :+1: 
+[20160607 10:46:49] gaemi : 저도 확인했습니다
+[20160607 11:37:10] dalinaum : 내일 몇시 어디에서 하나요?
+[20160607 11:37:15] dalinaum : 제가 요즘 정신이 없어요 =3
+[20160607 11:44:57] realignist : 내일 7시 반 잔디(토스랩) 사무실일거에요
+[20160607 11:49:55] conan.the.detective : 고생 많으십니다! 감사합니다!
+[20160607 11:59:42] nobrain_steve : <@dalinaum>: 
+토스랩 -  강남구 역삼동 823-30 라인빌딩 11층 <http://goo.gl/NmC0G1>
+[20160607 12:02:01] jasonkim : 저는 8시 쯤 도착 할 예정..
+[20160607 12:02:09] jasonkim : 후딱 가도록 할게용 ㅠㅠ
+[20160607 12:06:45] nobrain_steve : 넹
+[20160607 12:07:09] nobrain_steve : @jsonkim 8시부터 본 스터디 시작할테니까 걱정마세요.
+[20160607 12:07:29] nobrain_steve : <@jasonkim>: 제가 공유한것만 미리 보고 오세요~
+[20160607 12:10:29] jasonkim : :slightly_smiling_face: 
+[20160607 14:55:50] nobrain_steve : queue 두번째 예제 넣었어요.
+간단하게 Template Pattern 을 이용해서 구현했어요. :slightly_smiling_face:
+[20160607 23:14:23] word : 슬랙아이디가 제가 ward—&gt; word 로 수정하였습니다.^^;;;
+[20160608 04:16:28] ggikkopark : 방금전에 dagger 연습중이라.. 승욱님 개인 프로젝트에 dagger2 붙여봤는데 공유하는게 도움이 될까요..?
+[20160608 04:16:45] ggikkopark : repository module만 붙여봤어요
+[20160608 04:33:47] kunny : 개인프로젝트라면 현재 저장소에 올라와있는건가요?
+[20160608 04:34:16] ggikkopark : 넵
+[20160608 04:34:52] ggikkopark : <https://github.com/gdgand/android-rxjava> 여기있는거에 붙여봤어요 간단하게
+[20160608 04:35:49] kunny : 음 대거 안 쓰시는 분들도 있으니까 전체에 적용하긴 좀 애매하고, 따로 나눠서 올리는건 어떨까요?
+[20160608 04:36:15] kunny : 저장소 구조도 정리해둬야겠네요 여러 프로젝트 넣기 용이하게
+[20160608 04:36:39] ggikkopark : 넵넵 그럼 일단 보류..하겠습니다 :slightly_smiling_face:
+[20160608 04:36:47] kunny : 넵 이따 저녁때 이야기해보아요~
+[20160608 04:36:55] ggikkopark : 넵 알겠습니다.
+[20160608 04:42:29] conan.the.detective : 초고수분들….벌써 PR을 4개나;;
+[20160608 06:04:55] nobrain_steve : <@conan.the.detective>: 4개다 제꺼임...
+[20160608 06:05:43] nobrain_steve : 아 아니네요... <@moltak> 어느새...
+[20160608 07:40:23] moltak : 그냥 테스트해보다가;
+[20160608 08:25:37] nobrain_steve : <@moltak>: 근데 fcm 테스트 잘 되던가요?
+[20160608 08:25:46] nobrain_steve : 제 PC 에서만 해보고 다른데선 안해봐서리...
+[20160608 08:26:44] moltak : 네 잘 되욤
+[20160608 08:27:05] nobrain_steve : 오 다행이다
+[20160608 08:28:02] moltak : 코드가 좋아서 :slightly_smiling_face:
+[20160608 08:29:48] nobrain_steve : 내가 좀 잘해. 후훗
+~.^
+ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[20160608 08:30:19] moltak : 누가 썼을까 ㅋㅋ
+[20160608 08:30:30] nobrain_steve : ㅋㅋㅋㅋㅋ
+[20160608 08:30:42] nobrain_steve : 본심 폭발...
+[20160608 08:30:53] nobrain_steve : ( __)z
+[20160608 08:32:58] moltak : zzzzzzzzzzzzzzzzzzzzzzz
+[20160608 08:45:20] ggikkopark : 잘 동작합니다!
+[20160608 08:47:05] nobrain_steve : 올 다행이메요
+[20160608 09:07:55] moka : 음 .. 어떻게 테스트 하신건지 ㅠ
+[20160608 09:09:27] ggikkopark : get fcm 토큰 from service -&gt; 변경 reg ID in Sender class -&gt; main함수 실행 in Sender class
+[20160608 09:10:15] nobrain_steve : 앱을 실행하시면 fcm reg id 를 로그캣에서 찾으실 수 있어요.
+[20160608 09:10:25] nobrain_steve : 그걸 Sender.class 에서 수정하셔서 테스트하시면 되요.
+[20160608 09:28:42] moka : 곧 도착할거같아요 ! 가서해봐야지..
+[20160608 09:54:55] mario : 스터디 참석을 위해 코드가 좋아서 잘 동작하는 steve님 코드보면서 공부하고 있는데 마눌님이 퇴근을 못할 것 같다며 딸내미를 부탁한다네요 ㅠㅠ
+[20160608 10:01:39] nobrain_steve : =ㅁ=
+[20160608 10:01:58] mario : 오늘 스터디한 내용 공유해주세요. 집에서 딸내미랑 슬랙 보고 있을게요.
+[20160608 10:03:42] deme : 크흡 ㅠㅠ 저도 공유 부탁드립니다. 출장와서 일하고있어요
+[20160608 10:13:28] jasonkim : 아아... 야근이네요..
+[20160608 10:13:31] jasonkim : 죄송 합니다 ㅠㅠ
+[20160608 10:13:39] jasonkim : 슬랙보고 있도록 할게요!!
+[20160608 10:18:18] moka : ㅜ,ㅜ
+[20160608 10:35:16] taehwan : <https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm?utm_source=chrome-ntp-icon>
+[20160608 10:38:23] nobrain_steve : 이건 뭔가요?
+[20160608 10:38:36] taehwan : 크롬브라우저 이용해서 원격제어 하는거요. 무료는 화질이 별로 ㅋㅋ
+[20160608 10:39:21] nobrain_steve : 전 AllCastReciever 써요
+[20160608 10:39:33] nobrain_steve : 믿고 쓰는 CM
+[20160608 10:39:52] taehwan : 그쵸 믿고쓰는 CM 그런데 저건 유료입니다..... 무료는 화질이 구려요 ㅋㅋ
+[20160608 10:40:01] nobrain_steve : 그런가요?
+[20160608 10:40:10] nobrain_steve : 제것도 화질이 구린거였구나...
+[20160608 10:40:10] nobrain_steve : ㅋ
+[20160608 10:40:18] nobrain_steve : 아아 제가 잘못 이해했네요 ㅋ
+[20160608 10:40:32] taehwan : 아 제거요 ㅋㅋㅋㅋ
+[20160608 11:28:24] realignist : <https://github.com/ReactiveX/RxJava/blob/master/src/main/java/rx/subscriptions/CompositeSubscription.java>
+[20160608 11:31:48] taehwan : <https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm?utm_source=chrome-ntp-icon>
+[20160608 11:36:30] leeyoungchan : <https://github.com/ReactiveX/RxJava/issues/2959>
+[20160608 11:46:11] realignist : <https://docs.oracle.com/javase/7/docs/api/java/lang/invoke/MethodHandle.html>
+[20160608 11:46:15] realignist : <https://slipp.net/wiki/pages/viewpage.action?pageId=19530380>
+[20160608 11:46:20] realignist : 이 글들이 도움이 될 것 같아서 첨부합니다.
+[20160608 11:47:54] realignist : <https://groups.google.com/forum/#!topic/ksug/wrFMOwFugwY> +1
+[20160608 11:48:46] mireuk : <https://www.youtube.com/watch?v=QdmkXL7XikQ>
+<https://speakerdeck.com/dlew/common-rxjava-mistakes>
+youtube영상에서, 33분20초 정도쯤해서 clear()관련해서 설명하네요.
+[20160608 11:57:24] realignist : <https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html>
+<http://www.oracle.com/technetwork/articles/java/fork-join-422606.html>
+[20160608 11:59:56] realignist : <http://stackoverflow.com/questions/24629247/where-does-official-documentation-say-that-javas-parallel-stream-operations-use>
+[20160608 12:06:01] realignist : 일반적으로 1급 시민의 조건을 다음과 같이 정의한다.
+
+ - 변수(variable)에 담을 수 있다
+ - 인자(parameter)로 전달할 수 있다
+ - 반환값(return value)으로 전달할 수 있다
+
+라고 하네요.
+[20160608 12:08:02] taehwan : <https://www.slideshare.net/mobile/thenewcircle/java-8-sfjug>
+[20160608 12:19:09] ggikko : 고생하셨습니다. 강의 정말 잘들었습니다!! :)
+[20160608 12:20:35] mario : 부럽네요. 다음주는 꼭 참석할거에요.
+[20160608 12:22:51] heyden : 궁금한게 많이 풀렸습니다! 감사합니다:+1: 
+[20160608 12:31:33] mugku : 바로 적용가능한 꿀팁 감사합니다 :+1: 
+[20160608 12:55:46] mireuk : 수고하셨습니다! 다음주에 뵈요 :slightly_smiling_face:
+[20160608 12:56:36] pluulove : ;ㅁ; 재미있겠어요
+[20160608 14:50:06] leeyoungchan : 흠 다음주는 개미님이 발표를!
+[20160608 23:49:16] gaemi : 아... 어제 스터디끝나고 잔디에 있는 친구랑 술퍼먹었더니 아침이 힘드네요. ㅠㅠ
+[20160608 23:49:27] gaemi : 스터디 주제(?) 는 오늘중으로 공유하도록 하겠습니다.
+[20160608 23:58:42] gaemi : <!group> 주제는 `hot observable 과 cold observable` 로 정했습니다.
+각각의 특징, 다른점, 활용방법(예시) 등을 같이 공유해보아요.
+[20160609 00:03:27] gaemi : 기술문서는 <http://reactivex.io/documentation/observable.html> 여기입니다.
+[20160609 00:59:47] werwe : 안녕하세요. 스터디 멤버는 아니지만 눈팅좀 하겠습니다.
+[20160609 01:19:36] moltak : <@nobrain_steve>: 어제 발표때 보여주셨던 슬라이드 좀 공유부탁드려요 ㅠㅡㅠ
+[20160609 01:22:43] taehwan : <https://gdgkr.slack.com/archives/android-rxjava/p1465119345000049>
+[20160609 01:23:09] moltak : 아항…. ㅋㅋㅋ 제가 못봤군요 ㅠㅡㅠ
+[20160609 01:23:31] moltak : <@taehwan>: 감사합니다 :slightly_smiling_face:
+[20160609 01:24:21] nobrain_steve : hot-cold 에 대한 설명은
+<https://github.com/ReactiveX/RxJava/wiki/Backpressure>
+
+여기서도 언급되요
+[20160609 01:27:32] leeyoungchan : <@gaemi>:  그럼 다음주는 ConnectableObservable 과 Observable을 모두 다루는건가요 :wink:
+[20160609 01:29:08] nobrain_steve : 두번째 주제 정해진것 같은데요...
+[20160609 01:29:14] gaemi : 네. 그 둘의 차이점과 예제를 이야기한다고 보시면 되요.
+[20160609 01:42:09] flask : 어제 말씀하신 라이트스트림?이 <https://github.com/aNNiMON/Lightweight-Stream-API> 이녀석 인가요?
+[20160609 01:44:39] nobrain_steve : 네
+[20160609 01:44:41] realignist : 네 저거 맞습니다.
+[20160609 01:44:49] realignist : FunctionalJava라는 라이브러리도 있어요.
+[20160609 01:45:02] pluulove : ㅇㅅㅇ 라이트스트림은 저 라이브러리가 제일 유명한듯
+[20160609 01:45:52] nobrain_steve : 1.0 찍은지 한참됐네요...작년1월이었네 ;
+[20160609 01:49:33] conan.the.detective : 좋은 주제인 것 같은데... 참석을 못한다니.. (ㅠㅠ) 
+[20160609 02:00:02] leeyoungchan : 지역 클래스(Local Class), 무명 클래스(Anonymous Class), 람다식(Lambda Expression)에 관련된 이야기가 있었는데
+[20160609 02:01:10] leeyoungchan : 찾아보니 클로져(Closure)이야기도 나오고 이게 final이 맞니 아니니 논쟁이 많은 사항이군요 -_-
+[20160609 02:01:39] realignist : <http://realignist.me/code/2016/06/09/rxjava-study-1.html>
+[20160609 02:01:54] realignist : 오늘 스터디를 나름대로 요약? 정리? 해봤습니다.
+[20160609 02:02:04] realignist : 혹시 잘못된 점이 있으면 알려주시면 바로 수정하도록 하겠습니다.
+[20160609 02:04:53] taehwan : 실시간 정리를 하시더니! ㅎㅎㅎ 기다렸습니다. 잘 보겠습니다!
+[20160609 02:08:18] nobrain_steve : 오 callsite 잊고 있었는데
+[20160609 02:08:21] nobrain_steve : 정리에 추가해주셨네요
+[20160609 02:09:17] leeyoungchan : <http://d2.naver.com/helloworld/4911107>
+[20160609 02:09:31] leeyoungchan : 도움될만한 한글로 된 글이 있어서 링크 붙힙니다.
+[20160609 02:09:37] realignist : 오 감사합니다! :smile:
+[20160609 02:10:18] nobrain_steve : 제가 따로 정리할 필요 없이 이게 그대로 wiki 로 올라가도 되겠네요
+[20160609 02:10:33] leeyoungchan : C#에서 구현된 개념을 java로 가지고오면서 겪는 이슈들 같은데..
+[20160609 02:11:01] leeyoungchan : 파고들면 정리는 안되고 개발자나 컴파일러나 둘다 윈윈이니까 그냥 써..라는 결론이
+[20160609 02:28:11] nobrain_steve : <https://github.com/gdgand/android-rxjava/wiki/How-to-use-a-way-of-Queue>
+하제님이 정리해주신 내용으로 추가했어요
+[20160609 02:28:24] nobrain_steve : 제가 따로 정리 안해도 되네요 :slightly_smiling_face: 줏어먹기 ㅋ
+[20160609 02:28:28] nobrain_steve : :troll:
+[20160609 02:28:41] taehwan : 오홋 ㅎㅎㅎㅎㅎ Wiki에 쿠니님껀 없나요..? ㅜㅜ
+[20160609 02:34:04] kunny : ㅋㅋㅋ승욱님이 잘 정리해주셔서 전 딱히 (도망)
+[20160609 02:35:54] nobrain_steve : ㅋㅋㅋ하제님이 잘 정리해주셔서 전 딱히 (도망)
+[20160609 02:36:59] mario : 감사합니다. 엄청난 속도로 정리해주셨군요
+[20160609 02:37:55] realignist : 원래 오전에 빡센 QA가 예정되어있었는데 스테이징 서버가 장애가 나서… 다행히 정리할 시간이 있었습니다 ㅋㅋㅋ
+[20160609 02:40:04] pluulove : 모두가 잘 정리해주셔서 (도망)
+[20160609 02:43:18] moka : 감사합니다 !
+[20160609 03:12:23] recoverlee : 이렇게 눈팅으로라도 와우~ 잘볼게요~ 감사합니다~
+[20160609 03:14:35] kyungkoo : 다음에 스터디가 또 생기면 꼭 참석해보고 싶습니다. 좋은 내용 공유해 주셔서 감사합니다.
+[20160609 03:31:52] kyungkoo : <@realignist>: 살짝 논지에서 벗어나는거 같기는 한데요… Android N 부터는 Java8 의 Lambda 나 Stream 이 가능하지 않나요? 정리하신 문서에는 그냥 사용할 수 없다라고만 나와 있는거 같아서요.
+[20160609 03:32:15] realignist : 네 당연히 사용 가능합니다만, 아직 정식이 아니니까요
+[20160609 03:34:29] kyungkoo : 아. 답변 감사합니다. :smile:
+[20160609 03:34:46] nobrain_steve : stream 은 아니지 않나요?
+[20160609 03:35:06] heyden : DP3는 N버전 타켓으로 지원된다고 떴어요 :)
+
+[20160609 03:35:28] heyden : 람다는.. 잭쓰면 이젠 전부 지원된다고 적혀있던것같은데
+
+[20160609 03:36:00] leeyoungchan : <@nobrain_steve>: Merge "Add openJdk8 java.util.stream package"
+[20160609 03:36:05] leeyoungchan : <https://android.googlesource.com/platform/libcore/+/916b0af2ccdd1bdfc0283b1096b291c40997d05f>
+[20160609 03:36:19] kyungkoo : 아 찾고 있었는데 써 주셨네요 :smile:
+[20160609 03:36:22] nobrain_steve : 오
+[20160609 03:38:37] leeyoungchan : J&amp;J이 이제 APT지원하나요?
+[20160609 03:40:24] realignist : stream은 어느 정도 하위 호환을 버려야할텐데
+[20160609 03:40:26] realignist : 잠시만요
+[20160609 03:40:51] leeyoungchan : 아..아직안되는건가 -_-;
+gradle 내에서 좀 변칙적인 방법으로 처리가 가능하긴하네요.
+[20160609 03:40:53] leeyoungchan : <https://github.com/nickwph/annotation-processor-with-java8-jack-and-jill-android>
+[20160609 03:42:23] realignist : 함수형 인터페이스를 쓰려면
+[20160609 03:42:40] realignist : N만 됩니다.
+[20160609 03:43:03] realignist : <https://brunch.co.kr/@huewu/5> 찬석님이 잘 정리해주신 글을 보면 도움이 될겁니다.
+[20160609 03:43:23] realignist : 다만 API Level 9까지 람다식이나 메소드 레퍼런스가 지원되니까
+[20160609 03:43:35] realignist : 이건 꽤 좋은 것 같습니다.
+[20160609 03:46:04] kyungkoo : 하위 호환성은 역시 힘드네요 ㅠ
+[20160609 03:49:34] gaemi : 감사합니다
+[20160609 03:51:08] gaemi : 그나저나.... <@realignist> 님은 마크다운에디터 뭐쓰세요? 어제 보니까 엄청 깔끔하던데...
+[20160609 03:55:24] kunny : 왠지 아톰..?
+[20160609 03:55:46] gaemi : 아 아톰에서 마크다운 지원되는건가요? ㅎㅎㅎ
+[20160609 03:55:50] gaemi : 좋은정보 감사합니다 ㅎㅎ
+[20160609 03:58:10] rfrost : 질문이 있어요. rx operator를 map, flatmap으로 길게 늘어뜨릴 때 하나의 map에서 구해진 값을 2개 이상을 건너띈 map에 전달하려면 Instance변수로 하거나 Carrier 객체를 사용하는 방법밖에 없을까요?
+
+.map(some-&gt; a)
+.map(a-&gt;b)
+.map(b-&gt; 여기에서 a를 어떻게 접근할까요)
+[20160609 04:04:49] leeyoungchan : 아...안됩니다 -ㅁ-
+[20160609 04:05:20] kyungkoo : 다른 방법을 생각해 보셔야 될 것 같습니다. method chaining은 바로 이전 값을 가지고 무언가를 하려고 하기 때문에 구현 하시려고 하는 동작은 안될 것 같습니다.
+[20160609 04:05:48] gaemi : 두번째 map 에서 Pair 로 ab를 묶어서 내리시면???
+[20160609 04:06:06] gaemi : 아 그걸 물어보신거구나 ㅎㅎㅎ
+[20160609 04:07:16] gaemi : 일단 말씀하신대로 건너띄어서 map 에 전달한다는건 부수효과가 있다는걸 의미하구요. 
+좋은 구조는 아니기도 하고, 일단 안됩니다. ㅎㅎㅎ
+[20160609 04:15:41] kunny : 제가 그런 구조를 많이 써서 고민을 많이 했었는데, 일단 구조상 넘기기가 애매해서 어쩔 수 없는 경우 Pair를 사용하거나, 아니면 아예 메서드로 잘게 쪼개서 인자로 받아 필요한 부분을 처리하는 식으로 했어요.
+[20160609 04:15:50] kunny : 결론은 꼼수를 좀 쓰셔야할듯 합니다ㅎㅎ
+[20160609 04:31:18] nobrain_steve : <@rfrost>: 전 아예 처음 map 할때 이너 옵저버를 선언해버리거나 pair 로 써요
+[20160609 04:34:34] realignist : 아 저는 iA Writer 씁니다. 근데 얘도 살짝 아쉬운게 있어서 마지막엔 Sublime으로 한번 다듬어요.
+[20160609 04:41:18] taehwan : 저도 그런거 하나 씁니다.
+
+요것도 좋아요….. 
+
+<https://itunes.apple.com/kr/app/quiver-programmers-notebook/id866773894?l=en&amp;mt=12>
+[20160609 04:54:36] rfrost : 답변주신 분들 감사합니다! 기존에는 Observable.create로 한번 더 감싸는 방법을 사용하고 있었는데, 어제 커니님으로부터 가르침을 받아 코드를 개선하던 중, 생겼던 이슈였어요 ㅎㅎ Carrier를 만들거나 메소드를 더 나누는 걸로 생각해봐야겠네요!
+[20160609 05:11:12] gaemi : <@realignist>: 오 감사합니다.
+[20160609 05:19:54] rfrost : 메소드를 더 나누고 flatmat으로 이어가기로 결정하였습니다. 이거 외에도 어제 잠깐 아이디어만 얻어가서 개선을 좀 하니 코드가 많이 깔끔해진거 같아요. rx는 위대하군요. 아직도 배우고 발전할 영역이 많은거 같아서 좋네요 ㅎㅎ
+[20160609 10:41:28] nobrain_steve : <http://www.introtorx.com/Content/v1.0.10621.0/14_HotAndColdObservables.html#PublishAndConnect>
+[20160609 10:59:10] realignist : 음 슬슬 한번 지금까지 대화 로그를 어딘가에 백업해두는게 좋을 것 같다는 생각이 문득 들었습니다.
+[20160609 11:00:51] nobrain_steve : 기텁으로 풀리퀘 올려주세요 ㅋ
+[20160609 11:18:36] realignist : 넹~
+[20160609 11:19:16] kunny : 아님 위키에 주셔도ㅅㅎ
+[20160609 11:27:59] jasonkim : 위키에!!!
+[20160609 11:44:05] realignist : 오 심각한 버그가 (…) @ 태그가 이상하게 치환되는 것 같은데 이건 주말에 고치겠습니다.
+[20160609 11:46:19] realignist : 일단 위키보다는 raw한 txt 파일이라 Repo의 PR이 나을 것 같은데, 디렉토리 구조가 변경될 때 올리면 어떨까요?
+[20160609 11:48:20] nobrain_steve : 네넹~
+[20160609 11:48:34] nobrain_steve : 제가 오늘 폴더하나 만들어놓을게요
+[20160609 11:49:41] realignist : 넵 주말 중에 logger도 오픈소스 쓰던거… 후딱 뜯어서 고치겠습니다.
+[20160609 14:39:38] kunny : 폴더구조는 바꿔서 올려놨어요~
+[20160609 14:39:50] kunny : travis가 안 돌아서 고치느라 좀 걸렸네요 -_-
+[20160609 14:42:35] nobrain_steve : 트래비스 돌아가더라고요 :)
+[20160609 14:43:01] nobrain_steve : 폴더하나를 만들려했는데 생각해버니 git 은 파일이 없으면 폴더를 생성하지 않는 구조네요...
+[20160609 14:43:46] nobrain_steve : <@realignist>: /slack-chatlog 폴더에 올리는게 어떠신지요
+[20160609 14:44:14] realignist : 넵 그렇게 하겠습니다 :)
+[20160609 14:47:50] kunny : <@realignist>: 작업 후에 풀리퀘 날려주세요ㅎㅎ
+[20160609 14:48:46] nobrain_steve : powered by Social Coding.
+[20160609 15:03:58] realignist : 아마 기존 로그들에 있는 멘션들은 제가 수동으로 매칭할 것 같습니다. 내일 오전에 올려드릴게요.
+[20160610 01:03:25] realignist : <@kunny>: <@nobrain_steve>: <https://github.com/gdgand/android-rxjava/pull/7> PR 날렸습니다~ :smile:
+[20160610 01:07:23] kunny : <@realignist>: 머지했습니다 :slightly_smiling_face: 감사합니다!
+[20160610 01:08:32] realignist : 오 빠른 머지! 감사합니다
+[20160610 01:15:41] nobrain_steve : 굿좝
+[20160610 02:25:29] nobrain_steve : 2가지형태의 데이터가 stream 되었을 때 형태에 따라 완전히 다르게 동작함.
+
+이런 경우 swichCase 를 쓰는게 좋을까요? 아니면 connect() 처리하는게 좋을까요 -_-?
+[20160610 02:45:02] realignist : 흠 차라리 switch case가 더 낫지 않을까요? 아니면 완전히 나눠서 처리하는 것도 좋은 방법일 것 같아요
+[20160610 02:46:00] nobrain_steve : 으흠 그렇죠?
+[20160610 02:46:18] nobrain_steve : connect 로 하면 연결된 모든 것에도 stream 이 되니까..
+[20160610 02:46:22] realignist : 네, 더 좋은 방법이 마땅치 않으면 그냥 나눠서 처리하는게 좋을 것 같아요.
+[20160610 02:46:38] nobrain_steve : 고민 해결.
+[20160610 02:46:48] realignist : :+1:
+[20160610 02:46:49] nobrain_steve : rx 라이브러리 하나 더 추가해야겠네요
+[20160610 04:35:42] leeyoungchan : 음.
+.map((async)realm insert)
+.map((async)realm delete)
+.subscribe((async)realm where)
+이런식으로 처리하면 subscribe에서 무결성 보장이 안되겠죠?
+[20160610 04:39:27] nobrain_steve : 아마 realm 에서 서로 다른 쓰레드 선언되고 동작한다고 오류 낼거에요.
+[20160610 04:40:51] leeyoungchan : ..그렇군요 =_=
+[20160610 04:41:04] leeyoungchan : mainthread에서 처리하니 frameskip이 일어나서
+[20160610 04:48:59] nobrain_steve : 매번 realm-object 를 생성하는 식으로 하셔야 될거에요
+[20160610 04:50:29] rfrost : async write하고 async read를 동시에 하면 잘은 모르지만 어떤 버그가 있다고 들었습니다.
+[20160610 06:55:49] dunkinpender : rx채널있는지 지금알앗네요 ㅎㅎ
+[20160610 08:40:51] nobrain_steve : switchcase 는 뭔가 다르네요.
+[20160610 08:41:38] nobrain_steve : 제가 원했던건 A, B 타입의 데이터가 주입되면 A -&gt; a.subscribe 가 실행되고 B -&gt; b.subscribe 가 주입되길 기대했는데
+[20160610 08:42:36] nobrain_steve : switchCase 코드 상으로는 아무리 봐도
+ABCDEF 와 12345 를 준비하고 `가` 가 주입되면 ABCDEF 를 주입하고 `나` 가 주입되면 12345 를 다운스트림하라는 코드네요
+[20160610 08:49:48] nobrain_steve : 주입되는 걸 선택하는거지 주입 받는걸 선택적으로 하는게 아니네요
+[20160610 08:50:13] nobrain_steve : 그냥 connectable 로 처리해야겠네요.
+[20160610 08:51:56] nobrain_steve : 다들 퇴근하셨나...
+[20160610 08:55:42] kunny : 넹 아마 중간에 흐름 바꾸는 역할인듯....
+[20160610 08:55:49] kunny : 그냥 pubsub에 이벤트 뿌리고
+[20160610 08:56:06] kunny : 이벤트에 subscribe하는 놈이 filter해서 원하는 이벤트만 받아 처리하는식으로 해야할듯요
+[20160610 09:01:43] nobrain_steve : pubsub 는 어디에 나오는거에요? 'ㅡ'
+[20160610 09:02:07] nobrain_steve : 아
+[20160610 09:02:10] nobrain_steve : 퍼블리쉬서브젝트...
+[20160610 09:02:22] nobrain_steve : 전 그냥 인터페이스 매퍼 만들어서 하려고요...
+[20160610 09:03:11] nobrain_steve : Map&lt;&gt;(a -&gt; a(), b-&gt;b()....) 이런식으로 만들고
+subscribe(it -&gt; map.get(it).call(it)) 이런식으로 하려고요
+[20160611 02:33:13] gaemi : <@nobrain_steve>: 아… 뭔가 구조가 바뀌었네요? 새로 모듈따서 샘플코드 작성하면 되는건가요?
+[20160611 02:33:41] gaemi : 오늘은 결혼식때문에 바빠서 내일쯤 준비를 할까 하는데..
+[20160611 02:34:44] nobrain_steve : 네네 모듈따서 하시면 되요
+[20160611 02:34:54] nobrain_steve : PR 올려주시면 저도 올릴게요 ㅎㅎ
+[20160611 02:39:49] gaemi : 네. 내일 작업해서 PR 올릴께요. ㅎ
+[20160612 07:03:35] gaemi : <https://docs.google.com/presentation/d/1x4N_DkjH78auvZ9IoOLqeI3_OQMzxQcptzQHJF17-F4/edit?usp=sharing>
+
+PR 보냈어요.
+아들녀석이 징징거려서 급하게 끝내고 보냈습니다. 아 창피해...
+[20160612 07:42:24] kunny : 머지했습니다. 감사합니다!
+[20160612 07:53:29] gaemi : 네. 코드리뷰 받는기분이네요. 
+많이 까주세요 ㅎㅎ
+[20160612 07:57:07] realignist : 사용자를 멘션했을 때 user id로만 주는데, 이걸 맵핑하려면 또 별도의 API를 써야하네요. 일이 커지네요 ㅋㅋ
+[20160612 08:15:47] pluulove : Build Your Custom Observable/Operator <https://speakerdeck.com/hkurokawa/operator>
+[20160612 08:16:01] pluulove : DroidKaigi 에서 영어로 되어있는 Rx문서가..
+[20160612 09:22:24] realignist: <@realignist>: 다시 한번 테스트
+[20160612 13:23:45] word: <@realignist>: 작업하시느라 수고 많으셨네요^^
+[20160613 07:11:41] taehwan: <@gaemi>: 잘볼게요! 감사합니다!
+[20160615 04:08:36] gaemi: <@kyungkoo>: 번역해주세요
+[20160615 04:08:55] kyungkoo: <@gaemi>: 출판사의 의지가 ㅎㅎㅎㅎㅎ
+[20160615 04:25:19] kyungkoo: <@gaemi>: 함께 하시죠 ㅋ
+[20160615 04:49:47] gaemi: <@mario> 대거는 공식 가이드 문서가 제일 좋아요... <http://google.github.io/dagger/>
+가이드 문서 들어가시면 소개되어 있는 동영상도 좋구요. <https://www.youtube.com/watch?v=oK_XtfXPkqw>
+[20160615 04:50:20] mario: <@gaemi>: 감사합니다.
+[20160615 06:24:05] gaemi: <@nobrain_steve>: 잔디 놀러가면 되나요? ㅎㅎ
+[20160615 06:46:34] leeyoungchan: ..일단 <@gaemi>  님 1섹션 정도 할 수 있을까한 ppt를 만들고 있긴한데...6시까지 만들어보고 안되면 안하는걸로 데헷;;
+[20160615 07:39:05] nobrain_steve: <@dalinaum>: 오시나요?
+[20160615 09:07:33] dalinaum: <@nobrain_steve>: 저는 지금 집에 도착했는데 고민이네요 ㅜㅜ
+[20160615 09:08:06] nobrain_steve: <@dalinaum>: 피곤할때 움직이면 병나요~ 쉬세요
+[20160615 13:03:54] nobrain_steve: <@moltak>: 자네 다음주 주제 선정자임
+[20160615 14:57:45] moltak: <@nobrain_steve>: ...ㅋㅋㅋ 주제 생각할게요 
+[20160616 01:19:19] nobrain_steve: <@moka> <https://github.com/gdgand/android-rxjava/wiki/What's-RxJava-and-Hot-Cold-Observable>
+[20160616 05:24:03] moltak: <@rfrost>:
+[20160616 06:34:26] nobrain_steve: 어제 <@gaemi> 님의 가르침을 받아 connectable 을 바로 사용햇네요 :slightly_smiling_face:
+[20160616 15:46:12] nobrain_steve: <@gaemi>: 같은 팀 분이신가요?
+[20160617 06:32:40] nobrain_steve: <@moltak>:
+[20160617 06:33:57] moltak: <@minion>: ㅋㅋㅋ 넹
+[20160617 07:07:15] gaemi: <@dunkinpender>:  스크롤빨리라면 <@nobrain_steve>  님 예제입니다 ㅎ
+[20160617 07:21:22] gaemi: 아무튼 그래도 제가 이해한게 맞다면 <@satsin> 님의 의도대로 동작은 할거에요...
+[20160617 07:30:54] dunkinpender: <@gaemi>:  Replayingshare라는게 어떤내용을 찾으면나올까요?? 제가 스터디참가를 못하고 잇어서 ㅎㅎ
+[20160617 07:59:39] leeyoungchan: <@minion>: 흠
+[20160617 08:11:08] nobrain_steve: <@gaemi>: 궁금한게 있는데요
+[20160617 08:13:16] dunkinpender: <@nobrain_steve>: 저 혹시 스터디에 소스 올려주신거에 질문하나드려도될까요 ㅎㅎ
+[20160617 08:16:28] gaemi: <@nobrain_steve>: 흠. 테스트해봐야 할 것 같네요 ㅠ
+[20160617 08:16:37] nobrain_steve: <@gaemi>: 제가 테스트 해보고 알려드릴게요
+[20160617 08:28:07] nobrain_steve: <@gaemi>: 제가 잘못 썼나요?
+[20160617 08:41:47] nobrain_steve: <@leeyoungchan>: 해보는 중이에요 ㅋ
+[20160617 08:46:34] nobrain_steve: <@leeyoungchan>: 
+emit 은 순서 상관없이 되는데
+consume 은 순서대로 되네요
+[20160617 08:50:30] nobrain_steve: <@gaemi>: <@leeyoungchan> 음...
+[20160617 09:51:05] rfrost: <@nobrain_steve>: 자료 잘 보았어요. 먼저 connectable이 뭔지 보고, 왜 저는 그게 필요없었는가를 생각해 보았는데, 저는 RxBus로 비슷한걸 하고 있었네요. Store에 함께 저장하고 있던 값들을 Connectable로 변경해서 데이터 흐름을 좀더 자연스럽게 하고, Subscription 개수를 줄이는 등 개선할 필요를 느꼈습니다. 그런데 BehaviorSubject랑 Obersable.replay() 하는것, PublishSubject랑 Observable.publish() 하는 것의 차이에 대해서는 좀더 고민을 해봐야 겠네요… 감사합니다! 아직 배울게 너무너무 많네요 ㅎㅎ
+[20160620 03:29:51] gaemi: <@nobrain_steve>:  님 이야기가 맞아요 ㅎㅎㅎ
+[20160620 04:28:11] mireuk: <@satsin>: observeOn을 두번 호출하신 부분은 하나를 subscribeOn으로 변경하셔야 될거 같아요.
+[20160620 04:31:09] gaemi: <@moka>:  일단...  refCount() 는 subscribe 되는게 없으면 observable 에 대한 동작이 끝이납니다.
+즉 A subscriber 가 아이템을 다 소비하고 끝난 상태에서 다시 B Subscriber 가 구독하면서 새로운 stream 이 시작되는 경우에요.
+[20160620 04:42:02] mireuk: <@satsin>: 근데 map 대신에 flatmap은 어느 경우에 사용하는 건가요?
+[20160620 04:58:17] vulpeszerda: <@gaemi> 저도 이 의견에 동의합니다… 처음에 엄청 헤맸어요ㅠ
+[20160620 05:00:43] satsin: <@mireuk>: flatmap은 서버 api를 연속해서 두번 불러야 하기 때문에 사용했습니다.
+flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 두번 호출하는부분은 맞는 코드였습니다.^^;
+[20160620 08:26:45] nobrain_steve: <@kunny> &amp; <@gaemi> I need your help.
+[20160620 08:39:45] leeyoungchan: <@satsin>: concatmap은 순서보장이에요.
+[20160621 01:15:39] nobrain_steve: <@dunkinpender>: subscribe() 에 1초 thread.sleep 걸어주시고요. 1초 동안 1000개 onNext 시켜보세요.
+[20160621 01:40:10] nobrain_steve: <@gaemi> 확실히 멀티캐스팅은 분기가 되는 그순간부터는 아예 consume 하는 타이밍이 달라지네요
+[20160621 08:15:08] mario: <@nohseho>: 위 경우처러 디바이스에 따라 view가 달르다면 MVP가 좋지 않을까요?
+[20160621 08:15:45] nohseho: <@mario>: 디바이스에 따라 View가 다르다는 것은 폰, 태블릿 이런 구분을 말씀하시는 건가요??
+[20160621 08:15:49] mario: <@nobrain_steve>: 그러면 오늘 3명 이러면 선착순인가요?
+[20160621 08:16:54] mario: <@nohseho>: 네 위에 공유드린 페이지게 깃 링크 있으니까 소스를 보시는게 이해하시는데 조금 도움이 될 것 같아요.
+[20160621 08:17:34] nohseho: <@mario> 넵 한번 보겠습니다 감사합니다 :slightly_smiling_face:
+[20160621 08:25:35] nobrain_steve: <@dunkinpender>: 스터디는 수요일요
+[20160622 07:07:09] taehwan: <@pluulove>: 오홋! 있다가 뵈요! 근데 … 제가 갈 수 잇을지 지금 애매하네요 -ㅁ-;;; 업데이트를 안시켜줘요
+[20160622 07:25:20] nobrain_steve: <@deme>: 라이언있나요?
+[20160622 07:51:33] nobrain_steve: <@vulpeszerda>: <@gnkr8> <@pluulove> <@rfrost> @kimc1905 오늘 스터디 오셔요~
+[20160622 08:11:21] leeyoungchan: <@deme> 저도라이언 하나 부탁드려요
+[20160622 08:35:28] nobrain_steve: <@moka> 위키에 추가할게요~
+
