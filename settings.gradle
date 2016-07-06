@@ -1,1 +1,1 @@
-include ':2016-06-08_queue:app', ':2016-06-08_queue:fcm-sender', ':2016-06-15_hot_and_cold:app', ':2016-06-22-OneStream_VS_Multicast', ':2016-06-22_operators_creating:app'
+include ':2016-06-08_queue:app', ':2016-06-08_queue:fcm-sender', ':2016-06-15_hot_and_cold:app', ':2016-06-22-OneStream_VS_Multicast', ':2016-06-22_operators_creating:app', ':2016-07-06_rxjava_tips'

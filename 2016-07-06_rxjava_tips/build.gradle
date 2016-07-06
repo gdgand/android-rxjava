@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.fernandocejas.frodo'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.gdgand.rxjava.tips"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "3g"
+        preDexLibraries = !rootProject.ext.ci
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    apt rootProject.ext.butterknifeCompiler
+    apt rootProject.ext.daggerCompiler
+
+    compile rootProject.ext.appCompat
+    compile rootProject.ext.butterknife
+    compile rootProject.ext.dagger
+    compile rootProject.ext.design
+    compile rootProject.ext.okHttp
+    compile rootProject.ext.okHttpLoggingInterceptor
+    compile rootProject.ext.recyclerView
+    compile rootProject.ext.retrofit
+    compile rootProject.ext.retrofitConverterGson
+    compile rootProject.ext.retrofitAdapterRxJava
+    compile rootProject.ext.rxAndroid
+    compile rootProject.ext.rxJava
+    compile rootProject.ext.rxAsync
+    compile rootProject.ext.rxReplayingShare
+    compile rootProject.ext.rxLifecycle
+    compile rootProject.ext.rxLifecycleComponents
+    compile rootProject.ext.lightWeightStream
+    compile rootProject.ext.picasso
+    compile rootProject.ext.rxJavaDebug
+
+    provided rootProject.ext.jsr250
+
+    testCompile rootProject.ext.daggerCompiler
+    testCompile rootProject.ext.junit
+    testCompile rootProject.ext.mockitoCore
+    testCompile(rootProject.ext.assertjAndroid) {
+        exclude module: 'support-v4'
+        exclude module: 'support-annotations'
+    }
+}
+
+retrolambda {
+    javaVersion JavaVersion.VERSION_1_7
+}
+
+frodo {
+    enabled = true
+}

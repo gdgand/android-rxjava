@@ -46,6 +46,9 @@ ext {
     retrofitAdapterRxJava =
             'com.squareup.retrofit2:adapter-rxjava:2.0.2'
 
+    // Dependencies - Images with Network
+    picasso =
+            'com.squareup.picasso:picasso:2.5.2'
 
     // Dependencies - Rx
     rxAndroid =
@@ -60,6 +63,8 @@ ext {
             'com.jakewharton.rx:replaying-share:1.0.1'
     rxAsync =
             'io.reactivex:rxjava-async-util:0.21.0'
+    rxJavaDebug =
+            'io.reactivex:rxjava-debug:1.0.3'
 
     // Dependencies - Stream
     lightWeightStream =
