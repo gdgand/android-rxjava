@@ -1,4 +1,4 @@
-[20160605 05:23:08] heyden : :+1: 
+[20160605 05:23:08] heyden : :+1:
 [20160605 05:23:32] realignist : 적용 완료했습니다 :slightly_smiling_face:
 [20160605 05:26:49] realignist : Observable로 BlockingQueue를 이용해 프로듀서-컨슈머 패턴을 구현하는 글입니다. 도움이 될 것 같아서 투척합니다. <https://dzone.com/articles/consuming-javautilconcurrentblockingqueue-as-rxobs>
 [20160605 08:28:18] nobrain_steve : <!channel>: 짧은 시간 안에 들어온 FCM 으로 들어온 메세지를 일부 메세지만 처리할 수 있도록 하는 Queue 예제 올렸습니다.
@@ -46,19 +46,19 @@ p.213~
 [20160605 09:36:14] nobrain_steve : 수욜에 뵈요
 [20160605 09:36:16] nobrain_steve : ㅋㅋ
 [20160605 09:53:47] moka : 감사합니다 !!
-[20160605 09:56:10] heyden : 감사합니다:+1: :+1: 
+[20160605 09:56:10] heyden : 감사합니다:+1: :+1:
 [20160605 10:47:14] mario : 감사합니다. :grin:
 [20160605 15:28:12] nobrain_steve : slow 테스트를 해야하는데 realm 이 너무 빨라서....slow 테스트가 안되네요 -_-;
 [20160605 15:28:19] nobrain_steve : 강제로 thread.sleep 줘야할판...
 [20160606 02:11:25] jasonkim : 이렇게.realm찬양을...
-[20160606 03:02:05] recoverlee : android weekly에 보니  rxandorid 관련 연재 글이 있네요~ 
+[20160606 03:02:05] recoverlee : android weekly에 보니  rxandorid 관련 연재 글이 있네요~
 <https://medium.com/crunching-rxandroid/crunching-rxandroid-intro-c27eb6f009ea#.k2nw2gl2r>
 [20160607 01:39:52] nobrain_steve : 스터디 내일 저녁 7:30분입니다.
 잊지마thㅔ요~
 [20160607 01:47:43] mireuk : 넵넵
 [20160607 02:06:15] gaemi : 넵 ㅎ
 지금 공유해주신 소스 보고 있는 중인데요…
-throttleLast 를 주신 이유가 궁금하네요. ㅎㅎ 
+throttleLast 를 주신 이유가 궁금하네요. ㅎㅎ
 내일 들을수 있겠지요?
 [20160607 02:13:08] leeyoungchan : <@gaemi>:  일정시간동안 받은 메세지 중에 라스트 1건만 볼려고 쓴게 아닐까용
 [20160607 02:15:20] nobrain_steve : 그용도에요.
@@ -81,7 +81,7 @@ throttleLast 를 주신 이유가 궁금하네요. ㅎㅎ
 [20160607 06:59:34] kunny : <@jasonkim>: 석용님의 스웩도 보여주세요
 [20160607 06:59:50] jasonkim : 아직 전투력이 부족해서 …
 [20160607 07:00:02] jasonkim : 마치 촋의 스윀이란 초싸이언의 불꽃과도 같...
-[20160607 07:00:39] moka : 촋촋 !! 
+[20160607 07:00:39] moka : 촋촋 !!
 [20160607 07:00:53] jasonkim : 모카님도 나름 스윀이..
 [20160607 07:02:14] moka : 전 응애응애..  아장아장..
 [20160607 07:41:11] kunny : <!channel>: 스터디 참여자 목록 추가해 두었습니다. 혹시 이름이나 슬랙 id 잘못된 분은 알려주세요~ <https://github.com/gdgand/android-rxjava/wiki/%EC%B0%B8%EC%97%AC%EC%9E%90-%EB%AA%A9%EB%A1%9D>
@@ -90,26 +90,26 @@ throttleLast 를 주신 이유가 궁금하네요. ㅎㅎ
 [20160607 07:42:27] mario : 확인했습니다. 감사합니다.
 [20160607 07:43:04] mireuk : 확인했습니다 :slightly_smiling_face:
 [20160607 07:43:52] ggikkopark : 확인했습니다! :slightly_smiling_face:
-[20160607 07:43:58] taehwan : :+1: :clap: :tada: 
+[20160607 07:43:58] taehwan : :+1: :clap: :tada:
 [20160607 09:20:56] moltak : 확인했어요@
 [20160607 09:29:18] heyden : 확인했습니다!
 [20160607 10:00:56] mugku : 확인했습니다!
 [20160607 10:09:06] moka : 확인했습니다 !!
 [20160607 10:09:57] flask : 확인했습니다
-[20160607 10:36:07] hassanabid : :+1: 
+[20160607 10:36:07] hassanabid : :+1:
 [20160607 10:46:49] gaemi : 저도 확인했습니다
 [20160607 11:37:10] dalinaum : 내일 몇시 어디에서 하나요?
 [20160607 11:37:15] dalinaum : 제가 요즘 정신이 없어요 =3
 [20160607 11:44:57] realignist : 내일 7시 반 잔디(토스랩) 사무실일거에요
 [20160607 11:49:55] conan.the.detective : 고생 많으십니다! 감사합니다!
-[20160607 11:59:42] nobrain_steve : <@dalinaum>: 
+[20160607 11:59:42] nobrain_steve : <@dalinaum>:
 토스랩 -  강남구 역삼동 823-30 라인빌딩 11층 <http://goo.gl/NmC0G1>
 [20160607 12:02:01] jasonkim : 저는 8시 쯤 도착 할 예정..
 [20160607 12:02:09] jasonkim : 후딱 가도록 할게용 ㅠㅠ
 [20160607 12:06:45] nobrain_steve : 넹
 [20160607 12:07:09] nobrain_steve : @jsonkim 8시부터 본 스터디 시작할테니까 걱정마세요.
 [20160607 12:07:29] nobrain_steve : <@jasonkim>: 제가 공유한것만 미리 보고 오세요~
-[20160607 12:10:29] jasonkim : :slightly_smiling_face: 
+[20160607 12:10:29] jasonkim : :slightly_smiling_face:
 [20160607 14:55:50] nobrain_steve : queue 두번째 예제 넣었어요.
 간단하게 Template Pattern 을 이용해서 구현했어요. :slightly_smiling_face:
 [20160607 23:14:23] word : 슬랙아이디가 제가 ward—&gt; word 로 수정하였습니다.^^;;;
@@ -189,8 +189,8 @@ youtube영상에서, 33분20초 정도쯤해서 clear()관련해서 설명하네
 [20160608 12:08:02] taehwan : <https://www.slideshare.net/mobile/thenewcircle/java-8-sfjug>
 [20160608 12:19:09] ggikko : 고생하셨습니다. 강의 정말 잘들었습니다!! :)
 [20160608 12:20:35] mario : 부럽네요. 다음주는 꼭 참석할거에요.
-[20160608 12:22:51] heyden : 궁금한게 많이 풀렸습니다! 감사합니다:+1: 
-[20160608 12:31:33] mugku : 바로 적용가능한 꿀팁 감사합니다 :+1: 
+[20160608 12:22:51] heyden : 궁금한게 많이 풀렸습니다! 감사합니다:+1:
+[20160608 12:31:33] mugku : 바로 적용가능한 꿀팁 감사합니다 :+1:
 [20160608 12:55:46] mireuk : 수고하셨습니다! 다음주에 뵈요 :slightly_smiling_face:
 [20160608 12:56:36] pluulove : ;ㅁ; 재미있겠어요
 [20160608 14:50:06] leeyoungchan : 흠 다음주는 개미님이 발표를!
@@ -217,7 +217,7 @@ youtube영상에서, 33분20초 정도쯤해서 clear()관련해서 설명하네
 [20160609 01:44:49] realignist : FunctionalJava라는 라이브러리도 있어요.
 [20160609 01:45:02] pluulove : ㅇㅅㅇ 라이트스트림은 저 라이브러리가 제일 유명한듯
 [20160609 01:45:52] nobrain_steve : 1.0 찍은지 한참됐네요...작년1월이었네 ;
-[20160609 01:49:33] conan.the.detective : 좋은 주제인 것 같은데... 참석을 못한다니.. (ㅠㅠ) 
+[20160609 01:49:33] conan.the.detective : 좋은 주제인 것 같은데... 참석을 못한다니.. (ㅠㅠ)
 [20160609 02:00:02] leeyoungchan : 지역 클래스(Local Class), 무명 클래스(Anonymous Class), 람다식(Lambda Expression)에 관련된 이야기가 있었는데
 [20160609 02:01:10] leeyoungchan : 찾아보니 클로져(Closure)이야기도 나오고 이게 final이 맞니 아니니 논쟁이 많은 사항이군요 -_-
 [20160609 02:01:39] realignist : <http://realignist.me/code/2016/06/09/rxjava-study-1.html>
@@ -283,7 +283,7 @@ gradle 내에서 좀 변칙적인 방법으로 처리가 가능하긴하네요.
 [20160609 04:05:20] kyungkoo : 다른 방법을 생각해 보셔야 될 것 같습니다. method chaining은 바로 이전 값을 가지고 무언가를 하려고 하기 때문에 구현 하시려고 하는 동작은 안될 것 같습니다.
 [20160609 04:05:48] gaemi : 두번째 map 에서 Pair 로 ab를 묶어서 내리시면???
 [20160609 04:06:06] gaemi : 아 그걸 물어보신거구나 ㅎㅎㅎ
-[20160609 04:07:16] gaemi : 일단 말씀하신대로 건너띄어서 map 에 전달한다는건 부수효과가 있다는걸 의미하구요. 
+[20160609 04:07:16] gaemi : 일단 말씀하신대로 건너띄어서 map 에 전달한다는건 부수효과가 있다는걸 의미하구요.
 좋은 구조는 아니기도 하고, 일단 안됩니다. ㅎㅎㅎ
 [20160609 04:15:41] kunny : 제가 그런 구조를 많이 써서 고민을 많이 했었는데, 일단 구조상 넘기기가 애매해서 어쩔 수 없는 경우 Pair를 사용하거나, 아니면 아예 메서드로 잘게 쪼개서 인자로 받아 필요한 부분을 처리하는 식으로 했어요.
 [20160609 04:15:50] kunny : 결론은 꼼수를 좀 쓰셔야할듯 합니다ㅎㅎ
@@ -291,7 +291,7 @@ gradle 내에서 좀 변칙적인 방법으로 처리가 가능하긴하네요.
 [20160609 04:34:34] realignist : 아 저는 iA Writer 씁니다. 근데 얘도 살짝 아쉬운게 있어서 마지막엔 Sublime으로 한번 다듬어요.
 [20160609 04:41:18] taehwan : 저도 그런거 하나 씁니다.
 
-요것도 좋아요….. 
+요것도 좋아요…..
 
 <https://itunes.apple.com/kr/app/quiver-programmers-notebook/id866773894?l=en&amp;mt=12>
 [20160609 04:54:36] rfrost : 답변주신 분들 감사합니다! 기존에는 Observable.create로 한번 더 감싸는 방법을 사용하고 있었는데, 어제 커니님으로부터 가르침을 받아 코드를 개선하던 중, 생겼던 이슈였어요 ㅎㅎ Carrier를 만들거나 메소드를 더 나누는 걸로 생각해봐야겠네요!
@@ -368,7 +368,7 @@ subscribe(it -&gt; map.get(it).call(it)) 이런식으로 하려고요
 PR 보냈어요.
 아들녀석이 징징거려서 급하게 끝내고 보냈습니다. 아 창피해...
 [20160612 07:42:24] kunny : 머지했습니다. 감사합니다!
-[20160612 07:53:29] gaemi : 네. 코드리뷰 받는기분이네요. 
+[20160612 07:53:29] gaemi : 네. 코드리뷰 받는기분이네요.
 많이 까주세요 ㅎㅎ
 [20160612 07:57:07] realignist : 사용자를 멘션했을 때 user id로만 주는데, 이걸 맵핑하려면 또 별도의 API를 써야하네요. 일이 커지네요 ㅋㅋ
 [20160612 08:15:47] pluulove : Build Your Custom Observable/Operator <https://speakerdeck.com/hkurokawa/operator>
@@ -388,7 +388,7 @@ PR 보냈어요.
 [20160615 09:07:33] dalinaum: <@nobrain_steve>: 저는 지금 집에 도착했는데 고민이네요 ㅜㅜ
 [20160615 09:08:06] nobrain_steve: <@dalinaum>: 피곤할때 움직이면 병나요~ 쉬세요
 [20160615 13:03:54] nobrain_steve: <@moltak>: 자네 다음주 주제 선정자임
-[20160615 14:57:45] moltak: <@nobrain_steve>: ...ㅋㅋㅋ 주제 생각할게요 
+[20160615 14:57:45] moltak: <@nobrain_steve>: ...ㅋㅋㅋ 주제 생각할게요
 [20160616 01:19:19] nobrain_steve: <@moka> <https://github.com/gdgand/android-rxjava/wiki/What's-RxJava-and-Hot-Cold-Observable>
 [20160616 05:24:03] moltak: <@rfrost>:
 [20160616 06:34:26] nobrain_steve: 어제 <@gaemi> 님의 가르침을 받아 connectable 을 바로 사용햇네요 :slightly_smiling_face:
@@ -405,7 +405,7 @@ PR 보냈어요.
 [20160617 08:16:37] nobrain_steve: <@gaemi>: 제가 테스트 해보고 알려드릴게요
 [20160617 08:28:07] nobrain_steve: <@gaemi>: 제가 잘못 썼나요?
 [20160617 08:41:47] nobrain_steve: <@leeyoungchan>: 해보는 중이에요 ㅋ
-[20160617 08:46:34] nobrain_steve: <@leeyoungchan>: 
+[20160617 08:46:34] nobrain_steve: <@leeyoungchan>:
 emit 은 순서 상관없이 되는데
 consume 은 순서대로 되네요
 [20160617 08:50:30] nobrain_steve: <@gaemi>: <@leeyoungchan> 음...
@@ -440,7 +440,7 @@ flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 
 [20160622 09:44:18] realignist: 이제 정상적으로 새로 로깅합니다.
 [20160622 09:44:28] realignist: 기존에 있는 로그는 pr 보내고 출발할게요
 [20160622 09:48:43] pluulove: 한정거장인데 버스는 막히니 지하철록
-[20160622 09:50:13] slackbot: 
+[20160622 09:50:13] slackbot:
 [20160622 09:58:05] nobrain_steve: 모임간식이 바뀌었네요 ;; 주문이 잘못된듯
 
 불갈비/햄치아바타 입니다
@@ -461,7 +461,7 @@ flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 
 [20160622 10:17:51] deme: 현장거래중이예요 ㅋㅋㅋ
 [20160622 10:18:23] mario: 줄서봅니다. 불발나면 연락주세요.
 [20160622 10:21:02] deme: ㅋㅋㅋㅋㅋㅋ
-[20160622 12:00:32] slackbot: 
+[20160622 12:00:32] slackbot:
 [20160622 12:29:15] word: 오늘 발표 잘 들었습니다. 모두들 조심히 가세요*^^*
 [20160622 12:31:03] nobrain_steve: <https://t.co/nXO4Q4XxWu>
 [20160622 12:31:31] nobrain_steve: <https://mobile.twitter.com/Outsideris/status/745584527167225856>
@@ -469,15 +469,15 @@ flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 
 [20160622 12:34:52] pluulove: 오늘 발표 잘들었습니다
 [20160622 12:35:49] deme: :+1: 감사합니다
 [20160622 12:43:19] mireuk: 다음주에 뵈요 :slightly_smiling_face:
-[20160622 12:56:41] mario: 감사합니다.:clap: 
+[20160622 12:56:41] mario: 감사합니다.:clap:
 [20160622 13:04:40] recoverlee: 혹시 객원 참석은 불참자 있을시 앞으로 쭈욱 이어질 예정인가요?ㅋ
 [20160622 13:09:02] kunny: 넵. 단 상황에따라 인원수는 달라질 수 있습니다~
 [20160622 13:09:42] kunny: <@deme> 현장거래는 잘 완료하셨나요? ㅋㅋㅋ
 [20160622 14:12:54] pluulove: 좋은 현장 거래였습니다 :+1:
 [20160622 14:56:25] deme: 오늘 거래는 성공적으로 마쳤습니다 ㅎㅎ
 [20160622 14:56:37] deme: 발표해주신분들께 감사드려요. 처음 왔는데 많이 배우고왔어요 +_+
-[20160623 00:36:26] minion: 요거 한바구니 갖고 싶어요 :laughing: 
-[20160623 00:36:46] minion: 가격 얼마에여? 
+[20160623 00:36:26] minion: 요거 한바구니 갖고 싶어요 :laughing:
+[20160623 00:36:46] minion: 가격 얼마에여?
 [20160623 00:36:55] minion: 다음주 거래에 동참합니다 ㅎㅎㄹ
 [20160623 00:37:46] mario: 거래에 동참안했다고 마눌님께 혼났습니다. 다음주에 뵐게요 ㅎㅎ
 [20160623 00:38:07] deme: 엇 ㅋㅋㅋㅋ 네
@@ -485,7 +485,7 @@ flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 
 [20160623 00:38:20] leeyoungchan: 전 노트북에 부착!
 [20160623 00:38:50] leeyoungchan: ...여행용 노트북이라 마구 굴렸더니 기스가 너무나서 ㅋ
 [20160623 00:39:28] deme: 땜빵엔 스티커가 짱이죠 ㅎㅎ
-[20160623 00:42:51] minion: 상표를 교묘하게 가렸네여 ㅎㅎ 가운데 사과스티커 하나 붙이면 누가봐도 맥에어~ :laughing: 
+[20160623 00:42:51] minion: 상표를 교묘하게 가렸네여 ㅎㅎ 가운데 사과스티커 하나 붙이면 누가봐도 맥에어~ :laughing:
 [20160623 00:43:11] leeyoungchan: 은밀하게 보이는 레노모
 [20160623 00:43:13] leeyoungchan: 레노보 ㅋ
 [20160623 00:43:35] leeyoungchan: ...가운데 ★ 붙여서...
@@ -501,7 +501,7 @@ flatmap에서 새로운 쓰레드의 observable이 return되므로 observeOn을 
 [20160623 01:09:28] nobrain_steve: 선크림 하나 사러 가야지
 [20160623 01:09:30] dunkinpender: 만얼마짜리 우산이라
 [20160623 01:09:39] dunkinpender: 카톡좋아하시면 가보시는것두 ㅋㅋㅋ
-[20160623 07:00:44] moka: 어제 스터디 하고, 위에서 스티비님이 테스트하신 Connectable 에서 처리되는 순서에 관해서 정리하면서 쓴 포스팅 입니다.. 제대로 이해한건지 모르겠네요 ㅠ 
+[20160623 07:00:44] moka: 어제 스터디 하고, 위에서 스티비님이 테스트하신 Connectable 에서 처리되는 순서에 관해서 정리하면서 쓴 포스팅 입니다.. 제대로 이해한건지 모르겠네요 ㅠ
 <http://moka-a.github.io/android/rxAndroid_study_01/>
 [20160623 07:17:12] leeyoungchan: flatMap -&gt; onErrorResumeNext -&gt; flatMap 이렇게 처리하면 첫번째 flatMap에서 에러가나도 그대로 플로우를 타는군요!
 [20160623 08:54:31] leeyoungchan: <http://mobicon.tistory.com/467>
@@ -574,13 +574,13 @@ add 는  flatmap 이나 concatMap 으로 대체하세요./
 [20160627 09:08:57] psymarine: ㅎㅎ 화이팅
 [20160627 10:53:58] satsin: 생각처럼 잘 안되네요.. :joy:
 Observable 하나로 하고싶었는데 결국 두개로 나눠서 해결..ㅠ
-[20160627 13:22:13] psymarine: ㅜㅜ 
+[20160627 13:22:13] psymarine: ㅜㅜ
 [20160628 06:01:22] dalinaum: 내일 촬영할께요
 [20160628 06:03:10] taehwan: 내일껀 영상공개도되겠군요!
 [20160628 06:35:42] dalinaum: 촬영을 하고 Realm을 통해 공개할께요. (먼산)
 [20160628 07:46:00] dalinaum: 카메라 렌탈했습니다. 내일 뵈어요
 [20160628 07:47:03] nobrain_steve: 오 감사합니다~!
-[20160629 01:13:43] slackbot: 
+[20160629 01:13:43] slackbot:
 [20160629 01:14:37] nobrain_steve: <!channel> 불참자 분들 이슈에 댓글로 남겨주세요~
 빈자리는 일일객원으로 채우도록 하겠습니다.
 
@@ -597,25 +597,25 @@ Observable 하나로 하고싶었는데 결국 두개로 나눠서 해결..ㅠ
 [20160629 03:15:49] kunny: + 리나님의 녹화지원까지....
 [20160629 03:36:24] conan.the.detective: 초고수의 발표라서 준비가 남다른가보군요
 [20160629 04:14:09] vulpeszerda: 결원이 없다니 슬프네요..ㅠ
-[20160629 04:58:21] slackbot: 
-[20160629 04:59:05] slackbot: 
+[20160629 04:58:21] slackbot:
+[20160629 04:59:05] slackbot:
 [20160629 04:59:10] realignist: 아……….
 [20160629 04:59:17] realignist: 멘붕오네요 ㅠㅠ
 [20160629 04:59:18] nobrain_steve: 오
 [20160629 04:59:27] nobrain_steve: 하제님 /애도
 [20160629 05:00:47] taehwan: 아 전사 회의라니
-[20160629 06:03:25] slackbot: 
-[20160629 06:03:51] slackbot: 
+[20160629 06:03:25] slackbot:
+[20160629 06:03:51] slackbot:
 [20160629 06:03:57] nobrain_steve: <!channel>: 일일 객원 원하시는 분들은 이슈에 댓글 남겨주세요~
-[20160629 06:04:17] slackbot: 
-[20160629 06:05:39] slackbot: 
+[20160629 06:04:17] slackbot:
+[20160629 06:05:39] slackbot:
 [20160629 06:07:42] gnkr8: 사다리 타기를 너무 오랜만에 들어서. 이제 이해했네요. ㅋㅋ
 [20160629 06:09:08] nobrain_steve: ㅋㅋㅋ
 [20160629 06:21:04] dalinaum: Thank you나 Thanks를 5주간 써본 결과...
 [20160629 06:21:17] dalinaum: 저희 직원들은 대부분
 [20160629 06:21:22] dalinaum: No worries나 No problem
-[20160629 06:28:04] slackbot: 
-[20160629 06:48:39] slackbot: 
+[20160629 06:28:04] slackbot:
+[20160629 06:48:39] slackbot:
 [20160629 07:01:52] nobrain_steve: 오늘 스터디 간식은 버거킹으로 할게요.
 [20160629 07:02:34] nobrain_steve: 아..아니네요 단가가 안맞네요 ;;
 [20160629 07:02:38] nobrain_steve: 험험
@@ -659,9 +659,9 @@ Observable 하나로 하고싶었는데 결국 두개로 나눠서 해결..ㅠ
 [20160629 07:59:33] vulpeszerda: 프리라이딩각?
 [20160629 08:00:35] nobrain_steve: 아 이제 5시네요
 [20160629 08:00:36] nobrain_steve: ㅎㅎ
-[20160629 08:00:52] slackbot: 
-[20160629 08:01:01] slackbot: 
-[20160629 08:01:01] slackbot: 
+[20160629 08:00:52] slackbot:
+[20160629 08:01:01] slackbot:
+[20160629 08:01:01] slackbot:
 [20160629 08:02:16] nobrain_steve: <@gnkr8>: <@vulpeszerda> <@rfrost> 7시 반에 <http://dmaps.kr/26brq> 라인빌딩 11층 오른쪽 문으로 오시면 되요~
 [20160629 08:02:32] vulpeszerda: 넵~
 [20160629 09:33:27] gnkr8: 넹
@@ -686,3 +686,438 @@ Observable 하나로 하고싶었는데 결국 두개로 나눠서 해결..ㅠ
 [20160629 15:05:01] realignist: 넵 알겠습니다~ 내일부터 워크샵이라서 주제는 토요일날 저녁에 이야기할게요!
 [20160629 15:05:22] realignist: +1. 대화로그는 내일 가기 전에 한번 PR할게요 :)
 [20160629 15:20:10] nobrain_steve: 넹
+[20160629 23:13:28] slackbot:
+[20160629 23:41:02] slackbot:
+[20160630 01:32:56] dalinaum: 괜찮다면 Realm에서 Rx연동 구현을 어떻게 했나
+[20160630 01:33:02] dalinaum: 이런 주제로도 발표하고 싶네요
+[20160630 01:38:46] nobrain_steve: 오
+[20160630 01:39:07] nobrain_steve: <@realignist>: 공유시간 조절해주실수있을까요?
+[20160630 01:49:29] realignist: 헉 렘에서 이런 귀한 발표를...!
+[20160630 01:49:33] realignist: 당연하죠!!
+[20160630 02:16:12] mario: 앗 감사합니다.
+[20160630 02:16:28] mario: 어제 세미나 동영상이 너무 너무 보고 싶네요.
+[20160630 02:16:44] dalinaum: 빨리 올리도록 하겠습니다.
+[20160630 02:17:58] mario: <@dalinaum>: 감사합니다. :+1:
+[20160630 02:28:46] hubert: <@dalinaum>: 안녕하세요. 세미나 동영상은 어디에 올라가는지 알 수 있을까요?
+[20160630 02:29:12] dalinaum: <http://realm.io|realm.io> 에 올라갈 예정이에요.
+[20160630 02:32:39] nobrain_steve: 그럼 다음주는 <@realignist> 님과 <@dalinaum> 님께서 준비해주시는걸로 알고 있을게요
+[20160630 02:33:30] realignist: 차라리 다음주는 @dalinaum님이 쭉 진행해주시고 전 그 다음주에 하는 것도 좋을 것 같아요
+[20160630 02:33:45] dalinaum: ...
+[20160630 02:33:50] dalinaum: 세션을 두개로 만들려고 참여하겠다고 한건데..
+[20160630 02:34:04] realignist: 일단 제가 생각하는 주제는 약간 이야기들이 많을 것 같다는 생각이 들어서...
+[20160630 02:34:14] realignist: 였는데 하루에 해도 될 것 같습니다
+[20160630 02:34:20] dalinaum: 네..
+[20160630 02:34:25] realignist: 저도 준비할게요~ :)
+[20160630 02:34:33] dalinaum: 사실 어제 세션이 한개라서 촬영의 ROI가 안나올것 같아...
+[20160630 02:34:44] dalinaum: 세션이 두개는 되어야 설득하기 편할 것 같아서요 (…)
+[20160630 02:34:52] leeyoungchan: 개발자들을 100명 모아놔도 말이 별로 없다라는 ㅋㅋ
+[20160630 03:07:40] kunny: 오 다음주 초고수들의 향연을 보는건가요
+[20160630 03:09:33] toruchoi: 오.. 다음주에 객원은 아무도 없겠는걸요..
+[20160630 04:26:43] taehwan: :+1:
+[20160630 04:55:27] dalinaum: 거의 준비다했습니다.
+[20160630 04:56:07] dalinaum: undefined
+[20160630 04:56:10] dalinaum: 민우님이 휴가라 제가 표지까지 만들어봄.
+[20160630 04:56:32] dalinaum: 사진은 무단 전제했어요 (먼산)
+[20160630 04:59:22] gaemi: 멋지네요
+[20160630 04:59:53] nobrain_steve: :+1:
+[20160630 05:00:22] dalinaum: 민우님 인터넷 들어오면 업로드 될겁니다.
+[20160630 05:00:30] dalinaum: 그럼 저는 씻고… 나가볼 준비를
+[20160630 05:00:31] rfrost: 기대되네요!
+[20160630 05:09:52] taehwan: 오오!
+[20160630 06:03:10] dalinaum: 먼저 여기에 올릴께요.
+[20160630 06:03:11] dalinaum: <https://realm.io/kr/news/subject-in-rxjava/>
+[20160630 06:23:20] dunkinpender: 어우 동영상이다 ㅋㅋ
+[20160630 06:30:15] dunkinpender: 스터디할때 사람들 많나봐요
+[20160630 06:30:27] dunkinpender: 막 뒤에 찰칵찰칵소리남
+[20160630 06:32:51] word: 잘만들어주셔서 감사합니다*^^*
+[20160630 07:57:00] dunkinpender: 잘보고있습니다 ㅎ
+[20160630 08:15:29] rfrost: Observable.just(true)에 메모리 릭 이슈가 있나요?
+[20160630 08:15:50] rfrost: Observable.create는 메모리 릭이 없는데 just는 나네요 ㅠ
+[20160630 08:22:14] mireuk: 신기하네요
+[20160630 08:23:40] kunny: 시점 차이때문에 아닐까요? just는 바로 만들어버리는데 create는 subscribe 되는 시점에 생성될거에요
+[20160630 08:24:16] rfrost: 음… 이것저것 실험해보고 해결하면 어떤게 원인이였는지 말해드릴게요~ ㅎㅎ
+[20160630 08:24:40] mireuk: 넵!
+[20160630 09:42:17] rfrost: 아까 말한 메모리 이슈입니다.
+
+목표: 카메라에서 사진을 찍고 이미지 처리를 하는 로직이 포그라운드에 있었는데 백그라운드로 돌아가도록 개선.
+과정: Observable.just(true).observeOn(<http://Schedulers.io|Schedulers.io>())를 이용해 각 메소드를 백그라운드로 넣음. 메소드는 A -&gt; B -&gt; C 방식인데, B가 A 안에서 호출되고, C가 B안에서 호출되는 방식임. (원래 이렇게 되어있는걸 Observable로만 감싼 것.)
+문제: 모든 Observable subscribe를 습관적으로 CompositeSubscription으로 감싸고 있었음
+결과: A 안에서 B, B안에서 C를 호출하고, 각 A,B,C를 CompositeSubscription로 감싸니, CompositeSubscription 안에 CompositeSubscription이 있는 방식으로, 안에 데이터들이 GC되지 않음. 카메라로부터 나온 byte data가 한번 씩을 때마다 계속 남아있어서 연속 촬영시 OOM.
+해결: 일단 CompositeSubscription을 삭제. 하지만 추후 rx정신에 따라 반환값을 Observable로 두고, 체인 형식으로 흘러가도록 한 다음에, 맨 상위 것에만 CompositeSubscription을 두는 형식으로 해야할 것 같음.
+[20160630 09:43:28] rfrost: 지금까지 메모리 이슈로 고생한적이 없어서 메모리 트랙킹을 해본적이 없었는데… 처음으로 해봤네요. 많이 배웠습니다.
+[20160630 09:45:45] slackbot:
+[20160701 12:35:18] psymarine: <@nobrain_steve>:  스티브님 계시나영? ㅎㅎ
+[20160701 13:11:27] nobrain_steve: <@psymarine>
+저 친구랑 쏘주 중이라..;;
+[20160701 13:14:51] psymarine: 앗 그럼 월요일에 질문할게요 ㅎㅎ
+[20160701 14:25:32] nobrain_steve: <@psymarine>: 이제말씀해주셔도 되요
+[20160701 14:25:47] nobrain_steve: 쏘주를 한병반 마시긴했지만...
+[20160701 14:32:40] psymarine: <@nobrain_steve>: 아  초보 적인 질문인데여 ㅠㅠ rxjava를 사용하다 보니까 액티비티나 이런곳에서는 문제가 안되는데  브로드 캐스트 리시버 이런곳이나  인텐트 서비스에서 Observable 이용해서 뭔가 동작하게 되면여  unsubscribe 해줘야 할꺼 같긴한데 애매해서영
+[20160701 14:46:48] nobrain_steve: <@psymarine> 전 따로 싱글톤 객체를 만들어서 사용해요
+[20160701 14:49:18] psymarine: <@nobrain_steve>:  그럼 브로드 캐스트 리시버 같이 백에서 동작하는 넘들은 unsubscribe 싱글톤에서 해주신다는거에영?
+[20160701 14:49:56] nobrain_steve: 그냥 unsubscribe 를안해요 ㅡ,.ㅡ
+[20160701 14:50:13] nobrain_steve: application 이랑 라싸 같이 하라고 해요...
+[20160701 14:50:32] nobrain_steve: 아직 메모리릭으로 리포트 된게 없으니 아..잘되는구나 해요 ㅋㅋㅋ
+[20160701 14:51:00] psymarine: 아 그러신구여 저는 액티비티에서는 unsubscribe 해주는데 백에서 동작하는것들에 대해서 딱히
+[20160701 14:51:10] psymarine: 해줄 방법이 생각 안나서 안해줬거든여
+[20160701 14:51:35] psymarine: ㅋㅋ 늦은 시간에 답변 주셔서 감사합니다 ㅎㅎ
+[20160701 14:51:43] nobrain_steve: 근데 아마..publisher-consumer 방식으로 구현하면
+[20160701 14:52:06] nobrain_steve: subject 에 버퍼가 없으면 unsub 했다가
+[20160701 14:52:32] nobrain_steve: 새로 요청 왔을때 unsub 하면 재설정 하는 코드를 넣어야 정상이라고 생각해요
+[20160701 14:52:40] nobrain_steve: 는 다음주에 수정해야겠네요 ㅡ,.ㅡ
+[20160701 14:53:04] psymarine: 오우 그렇군여 ㅋㅋ 수정하시면 예제 소스 부탁 드려영 하하 ~~
+[20160701 14:56:23] nobrain_steve: 네넹~
+[20160701 14:56:56] psymarine: 오우 그리고 스터디 자료 ㅋㅋ 잘 보고 있습니다 ㅠㅠ
+[20160701 14:57:16] psymarine: 참석했으면 좋았을텐데 아쉽지만 ppt자료랑 ㅎㅎ 예제 소스를 보고있어영
+[20160702 14:49:19] realignist: 다음주에 발표할 주제에 대해서 고민을 하고 있는데 의견을 들어보고 싶습니다.
+두가지 주제를 생각했는데, 호응이 더 좋은 쪽으로 준비를 해보고 싶습니다. 선호하는 쪽의 번호를 Action으로 달아주세요!
+
+1. 해외에 있는 여러가지 RxJava 활용 사례들을 정리하고, 그걸 바탕으로 이야기하는 시간
+2. RxJava를 쓰면서 생길 수 있는 메모리 관리, 디버깅 등을 정리
+[20160702 14:57:35] realignist: 이거에 대해서는 내일 오후 6시까지 받을게요.
+[20160704 02:15:52] gaemi: 박빙이네요
+[20160704 02:42:40] realignist: 정말 박빙이라… 두 주제를 같이 잘 섞어서 자료를 만들어야겠어요 ㅋㅋ
+[20160704 03:49:33] kunny: 결론은 둘 다..ㅋㅋ
+[20160704 04:28:57] realignist: 그렇게 됬네요 ㅋㅋㅋㅋ
+[20160704 04:29:06] realignist: 자료는 내일 오전까지는 정리해서 올릴게요 :smile:
+[20160705 04:01:25] nobrain_steve: rxjava - publishsubject.buffer 하면
+[20160705 04:02:12] nobrain_steve: buffer 타임아웃마다 사이즈와 상관없이 emit 되는데
+[20160705 04:02:19] nobrain_steve: 사이즈를 제어할 수 있는 방법이 있을까요?
+[20160705 04:02:26] nobrain_steve: 사이즈가 0이면 emit 되지 않게
+[20160705 04:06:30] leeyoungchan: filter로 거르기
+[20160705 04:06:35] leeyoungchan: 안될까여
+[20160705 04:10:02] nobrain_steve: 지금은 필터로 하는데
+[20160705 04:10:15] nobrain_steve: 애초에 emit 되지 않는 방법을 생각하고 있어서요..
+[20160705 05:40:44] rfrost: <https://jiran.recruiter.co.kr/app/jobnotice/view?jobnoticeSn=2878>
+
+<@leeyoungchan>: 아는 분이 여기 홍보좀 해달라고 부탁이 왔어요
+[20160705 05:41:09] leeyoungchan: ㅋ
+[20160705 05:41:12] leeyoungchan: 누구 나가시나...ㅋ
+[20160705 05:41:29] rfrost: 아 영찬님이 아는 공고인줄...
+[20160705 05:41:51] leeyoungchan: 저흰 팀별로 쪼개져있어서
+[20160705 05:41:51] leeyoungchan: ㅠㅠ
+[20160705 05:42:14] leeyoungchan: ...들어가면 안드 1인 or 2인 개발 가능성이 농후
+[20160705 05:43:40] rfrost: 아항...
+[20160705 05:43:46] rfrost: 신입급도 괜찮다고 하더라구요 ㅎㅎ
+[20160705 05:44:10] rfrost: 그런데 retrofit2는 왜 multipart로 null을 보내지 못하도록 되어있을까요
+[20160705 05:44:25] rfrost: null을 우회해서 보낼 수 없을까요 ㅠㅠㅠ
+[20160705 05:44:29] leeyoungchan: null을 왜 보내야하죠
+[20160705 05:45:08] rfrost: api 쪽에서 avatar:”file” 하면 file을 받고, avatar: null 하면 지워주도록 설계했는데
+[20160705 05:45:18] rfrost: null을 못보내서 못지우고 있어요
+[20160705 05:45:28] leeyoungchan: null 넣으면 해더에 아에 안써지지않나요
+[20160705 05:45:56] rfrost: 그래서 Field랑 섞어서 쓰려고 해도
+[20160705 05:46:03] rfrost: Field랑 Part는 한꺼번에 쓸 수 없다고 하구..
+[20160705 05:47:51] leeyoungchan: @part밖게 못쓸듯 ㅜ
+[20160705 05:48:04] rfrost: 그러면 null을 못보내고...
+[20160705 05:48:06] rfrost: ㅠㅠㅠㅠㅠㅠ
+[20160705 05:49:29] leeyoungchan: file을 다운받고 지우는 api가 같이 들어있는거군요 ㅠ
+[20160705 06:07:20] rfrost: Field랑 섞어서 하려고 했는데 섞이지 않는군요… api를 2개로 찢어서 Observable zip 해야하나… ㅠ 반환값 처리가 엄청 귀찮은데 ㅠㅠ
+[20160705 07:11:21] dunkinpender: 저 간단한 질문이 있는데요 ㅎㅎ
+[20160705 07:11:43] dunkinpender: combineLatest와 zip 에
+[20160705 07:12:00] dunkinpender: 두개의 옵져블을 넣어서 처리해서 subscribe하면
+[20160705 07:12:14] dunkinpender: 결과는 똑같이 나오는데 혹시 차이점이 무엇일까요??
+[20160705 07:12:35] dunkinpender: 음......ㅊ ㅏ이점을 모르겟어서
+[20160705 07:17:16] satsin: zip : <http://www.atmarkit.co.jp/fdotnet/introrx/introrx_02/introrx_02_06.gif>
+CombineLatest  : <http://www.atmarkit.co.jp/fdotnet/introrx/introrx_02/introrx_02_07.gif>
+아마도 이 차이 일겁니당.
+[20160705 07:18:23] dunkinpender: 음.............
+[20160705 07:20:58] satsin: zip으로 하면 A에 한번 데이터가 도착하고 B가 계속 도착하면 1번밖에 실행안되는데
+CombineLatest이면 A는 한번 밖에 데이터가 안왔어도 B가 계속 도착하면 도착하는대로 A의 가장 최신 데이터로 실행될거에요.
+[20160705 07:22:08] dunkinpender: 아아
+[20160705 07:22:10] dunkinpender: 그차이군요!
+[20160705 07:22:24] dunkinpender: 정확히 이해는안가지만 ㅠ
+[20160705 07:22:50] dunkinpender: 혹시 zip이나 CombineLatest   로
+[20160705 07:22:55] dunkinpender: observable 2개를 햇을때
+[20160705 07:23:01] dunkinpender: a는 7초 b는 3초가 걸리는것을
+[20160705 07:23:09] dunkinpender: 있을때
+[20160705 07:23:22] dunkinpender: 그냥 저혼자 생각은 7초뒤에 면
+[20160705 07:23:40] dunkinpender: a,b 둘다 끝나서 리턴되야될꺼같은데 10초뒤에 끝나게되네요
+[20160705 07:23:53] dunkinpender: 음.......... 당연한거인가.
+[20160705 07:24:06] satsin: 엥? 7초가 맞지않나..?
+[20160705 07:24:27] dunkinpender: 메소드 시작할때 로그찍고
+[20160705 07:24:47] dunkinpender: 컴바인라스트 subscibe onNext시간찍엇는데 10초드라구요
+[20160705 07:24:51] dunkinpender: 음 슬립을 줘서그런가
+[20160705 07:25:43] satsin: A observable의 각각의 워커 쓰레드 map에서 슬립주는거면 상관없는데 메인 쓰레드를 슬립시켜 버린거 아니에요?
+[20160705 07:26:35] dunkinpender: Observable&lt;String&gt; bObservable = Observable.create(subscriber -&gt; {
+            try {
+                Thread.sleep(7000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            subscriber.onNext("B작업");
+            subscriber.onCompleted();
+        });
+[20160705 07:26:42] dunkinpender: 어 왜 난 이렇가 올라가지 ㅋㅋ
+[20160705 07:27:09] satsin: +버튼 누르시고 create snippet 으로 쓰시면되요.
+[20160705 07:27:34] dunkinpender: 음....... subscribe 하는쪽에서 subscribeOn(Schedulers.newThread()) 해주면 앞에부분도 그렇게 돌아갈줄알고 저렇게 하였는데 ㅎㅎ
+[20160705 07:28:51] dunkinpender: undefined
+[20160705 07:28:58] dunkinpender: 아 이렇게 올라가는군요 ㅋㅋㅋ
+[20160705 07:33:22] satsin: 돌려보니까 7초나오는데 어디서 subscribeOn 하신거에요?
+[20160705 07:33:47] satsin: aObservable하고 bObservable 각각에 하신거 맞나요?
+[20160705 07:34:21] dunkinpender: undefined
+[20160705 07:34:37] dunkinpender: 이건데요 제가 제대로 이해못해서 아마 샘플을 잘못만들고있는거같아요 ㅎㅎ
+[20160705 07:34:48] leeyoungchan: 음..
+[20160705 07:34:49] dunkinpender: 어후 어려워
+[20160705 07:34:51] satsin: undefined
+[20160705 07:34:58] satsin: 이렇게 하셔야해요
+[20160705 07:34:59] leeyoungchan: ab에 따로걸어보세여
+[20160705 07:35:05] dunkinpender: 아
+[20160705 07:35:12] dunkinpender: 저기에 저렇게도 걸수잇군요
+[20160705 07:35:17] dunkinpender: 아예생각도 못햇네요 ㅠㅠ
+[20160705 07:35:38] dunkinpender: 계속생각이 subscribe 앞에만 subscribeOn붙인다고만생가해서
+[20160705 07:35:55] leeyoungchan: 저렇게 거시면 combineObservable 에만 걸려요.
+[20160705 07:36:24] leeyoungchan: 그리고 combineObservalbe   오타...
+[20160705 07:36:25] dunkinpender: 어우 무릎을 탁
+[20160705 07:36:27] dunkinpender: 치고감니다
+[20160705 07:36:33] dunkinpender: ㅋㅋㅋㅋㅋㅋ create부분도 제가 이상하게 썻군요
+[20160705 07:36:41] dunkinpender: 저렇게 써야하는구나
+[20160705 07:37:21] satsin: create는 맞는거 같은데 저희는 레트로람다를 적용을 아직 안해서 ;;
+[20160705 07:37:48] dunkinpender: 오오 됩니다
+[20160705 07:37:56] leeyoungchan: subscribeOn은 옵져버블이 시작되는 스레드를 지정하는 거기 때문에 :wink:
+[20160705 07:38:08] dunkinpender: 허허 별거아닌데
+[20160705 07:38:09] dunkinpender: 유레카네요
+[20160705 07:38:12] dunkinpender: ㅋㅋㅋㅋㅋㅋ 잘모르니
+[20160705 07:38:18] satsin: 정말 헤깔림
+[20160705 07:38:27] dunkinpender: <http://reactivex.io/>
+[20160705 07:38:28] dunkinpender: dyrl
+[20160705 07:38:35] dunkinpender: 요기 똥글뱅이 움직이는거 직므알았네요
+[20160705 07:38:36] dunkinpender: ㅋㅋㅋㅋ
+[20160705 07:38:47] dunkinpender: 진작에좀 클릭하구 움직여볼껄
+[20160705 07:39:07] leeyoungchan: 마블다이어그램ㅋ
+[20160705 07:39:28] leeyoungchan: 움직이는게 있고 안움직이는게 있고 합니다 껄껄
+[20160705 07:40:25] dunkinpender: 음 zip은
+[20160705 07:40:31] dunkinpender: 1:1매칭처럼
+[20160705 07:40:35] dunkinpender: 되나보네용
+[20160705 07:40:46] dunkinpender: 최신꺼와  이것저것움직여보니
+[20160705 07:40:59] leeyoungchan: zip 같은 경우는
+[20160705 07:41:17] leeyoungchan: a,b 작업이 반드시일어나야 하는 상황에 쓰시면
+[20160705 07:41:45] satsin: zip할때 서로 다른 타입의 데이터를 합쳐야할경우 어떻게 하시나요?
+[20160705 07:42:21] leeyoungchan: ..합쳐서 새로 옵져버블을 만들어 내리면 되비다.
+[20160705 07:42:29] dunkinpender: 음....... 그럼혹시
+[20160705 07:42:45] dunkinpender: 한화면에 서버를 3개를 태워서 화면을 그릴 정보를 각각 가져온다했을때
+[20160705 07:42:47] satsin: zip안에서 하나 처리하고 하나 리턴했었는데 -_-a
+[20160705 07:42:55] dunkinpender: 각 옵저블을
+[20160705 07:43:09] dunkinpender: CombineLatest
+[20160705 07:43:26] dunkinpender: 으로 묶어서 리턴해줘도 될까요 이거 궁금해서 하다가 ㅋㅋㅋ
+[20160705 07:43:53] leeyoungchan: zip(a, b -&gt; resulta, resultb , return ){
+요기서 returna와 returnb를 조합해서returnc만듬
+
+return Obserable.just(returnc);
+[20160705 07:44:04] satsin: 아아 그게 맞는거죠?
+[20160705 07:44:07] leeyoungchan: 뭐 이런식
+[20160705 07:44:13] dunkinpender: 아 zip이군요
+[20160705 07:44:26] dunkinpender: 어짜피 막 여러번 막들어오는거아니면 뭘로해도 상관은없겠네요
+[20160705 07:44:26] satsin: zip안에서 하나 화면에 표시해버리고 리턴으로 b내려보냈더니 리뷰에서 한소리 들어서..ㅋㅋ
+[20160705 07:45:04] satsin: 모델을 세개 만들어야겠네요?
+[20160705 07:45:09] leeyoungchan: 만약에
+[20160705 07:45:17] leeyoungchan: a랑 b가 같으면
+[20160705 07:45:32] leeyoungchan: a에 b를 넣어서 a를 리턴하세요
+[20160705 07:45:35] leeyoungchan: ...
+[20160705 07:45:47] dunkinpender: 어려운데 재미있네요 껄껄껄
+[20160705 07:45:48] satsin: 거의 다르지 않나요.?ㅋ
+[20160705 07:45:56] leeyoungchan: 어짜피 한화면에서
+[20160705 07:45:58] leeyoungchan: 보여줘야한다면
+[20160705 07:46:02] dunkinpender: 다른객체긴할때
+[20160705 07:46:13] dunkinpender: ㅋㅋㅋ 인터페이싀 정의서가 다 달라서 아예 다른 정보를 통신할때 ㅎㅎ
+[20160705 07:46:30] dunkinpender: 말하고나니 이상하네요 ㅋㅋㅋ
+[20160705 07:46:41] leeyoungchan: 리턴할 때 같은 형태로 내리면되죠
+[20160705 07:46:43] dunkinpender: 객체가 4개가 나와야되는
+[20160705 07:48:24] leeyoungchan: 여튼 zip 같은 경우는 pull 방식으로 제가 api에 직접 붙어서
+[20160705 07:48:33] leeyoungchan: data를 가지고 와야한다면
+[20160705 07:48:38] leeyoungchan: zip이 맞는 것 같고..
+[20160705 07:49:07] leeyoungchan: combinelatest 같은 경우는 서버에서 push 형태로 업데이트을 알려준다면
+[20160705 07:49:19] leeyoungchan: 업데이트 된 쪽만 api를 호출하면 되기 때문에
+[20160705 07:49:30] leeyoungchan: 그런 용도로 사용하면 좋은 것 같습네다
+[20160705 07:51:46] dunkinpender: 아아
+[20160705 07:51:50] dunkinpender: 명확하네요 ㅎㅎ 감사합니다 ㅎㅎ
+[20160705 07:52:30] dunkinpender: 딴거는 타고 이게 어떻게 돌아가는구나~ 하것는디 rx는 클릭해서 가면 죄다 인터페이스라 ㅋㅋㅋㅋㅋㅋ
+[20160705 08:47:24] dunkinpender: 스터디 셈플코드를보면
+[20160705 08:47:33] dunkinpender: combineLatest 쓰시고
+[20160705 08:47:50] dunkinpender: .compose(ReplayingShare.instance()); 이부분이있는데 어떻게 동작하는지 여쭤봐도될까요
+[20160705 08:48:13] dunkinpender: 저번에  ReplaySubject 랑 publish 할때 ReplayingShare 가 나온거는 봣는데
+[20160705 08:48:31] dunkinpender: 음 compose만 검색하니 뭐 딱히 뭐가안나오네요
+[20160705 08:55:42] gaemi: 아...
+[20160705 08:55:56] dunkinpender: 개미님 소스 ㅎㅎ
+[20160705 08:56:03] dunkinpender: 콜드랑 핫 샘플입니다 ㅎㅎ
+[20160705 08:56:06] gaemi: ReplayingShare 를 사용하면 Hot Observable 로 바뀌게 되구요...
+[20160705 08:56:14] dunkinpender: 네넵
+[20160705 08:56:23] dunkinpender: 종종 소스보다보면 compose가있드라구요
+[20160705 08:56:27] dunkinpender: mvvm 샘플에도있고
+[20160705 08:56:44] gaemi: subscribe 하면 마지막에 emit 되었던 item 과, subscribe 이후에 emit 되는 item 들이 전달됩니다.
+[20160705 08:57:01] gaemi: <https://github.com/JakeWharton/RxReplayingShare/raw/master/marbles.png>
+[20160705 08:57:18] dunkinpender: 넵
+[20160705 08:57:24] gaemi: BehaviorSubject 랑 비슷하다고 생각하시면 되겠네요...
+[20160705 08:57:27] dunkinpender: 비해비어랑 비슷한거같은
+[20160705 08:57:29] dunkinpender: 넹넹
+[20160705 08:57:45] gaemi: 저걸 넣었던 이유는...
+[20160705 08:58:22] gaemi: combileLatest 로 조합된 모델에 대해서 관찰하는곳이 2곳 이상일때 어떻게 처리하냐를 이야기 하고 싶어서 넣었었어요.
+[20160705 08:58:41] dunkinpender: 인터넷을 찾아보면
+[20160705 08:58:47] dunkinpender: Rxlife사이클
+[20160705 08:58:52] dunkinpender: 거기에 적용할때
+[20160705 08:58:55] satsin: Observable을 BehaviorSubject처럼 사용한다고 이해하면 맞나요?
+[20160705 08:58:57] gaemi: 그냥 combileLatest  만 사용하면 cold observable 이어서, 매번 연산이 발생합니다.
+[20160705 08:59:30] dunkinpender: .compose(this.&lt;String&gt;bindToLifecycle());
+[20160705 08:59:35] gaemi: <@satsin>: 정확하지는 않은데요. 그렇게 이해하셔도 무방합니다.
+[20160705 08:59:41] dunkinpender: 이렇게 사용하는 예제도 있드라구요
+[20160705 08:59:47] gaemi: 전달하고자하는건 그거였어요. ㅎㅎ
+[20160705 08:59:50] dunkinpender: 그래서 음.... 저거쓸때 쓰나보다햇는데 개미님소스보니
+[20160705 08:59:58] gaemi: <@dunkinpender>: compose 사용법이 궁금하신건가요?
+[20160705 09:00:01] dunkinpender: Replay쓰실때도
+[20160705 09:00:06] dunkinpender: 아 넵
+[20160705 09:00:13] dunkinpender: 찾아볼수있는 키워드만 주시면 ㅎㅎ
+[20160705 09:00:18] dunkinpender: 찾아보겠습니다 감이 안잡혀서
+[20160705 09:00:21] dunkinpender: 어느부분을봐야할지
+[20160705 09:00:36] gaemi: compose 는 Observable 을 다른 Observable 로 변환해주는 오퍼레이터에요.
+[20160705 09:00:49] dunkinpender: flatmap하고는
+[20160705 09:00:59] dunkinpender: 아 넹
+[20160705 09:01:01] gaemi: flatmap 하고는 다릅니다. ㅎㅎ
+[20160705 09:02:23] dunkinpender: 음.........
+[20160705 09:02:42] dunkinpender: .compose()이 괄호안에있는부분을 작업을하고
+[20160705 09:02:44] gaemi: 아무튼... 다른 Observable 로 변환된다는 특성때문에...
+여러 Operator 들을 묶어서 처리한다던가... 사용자 커스텀오퍼레이터 대신에 간편하게? 사용하는 용도로 종종 사용됩니다.
+[20160705 09:02:50] dunkinpender: 다시 옵저블로 변환되는
+[20160705 09:03:04] satsin: flatmap은 Observable에 흐르는 값에 접근하는 오퍼레이터고 compose은 Observable에 직접 접근할 수 있는걸로 알고있습니다.
+[20160705 09:03:56] dunkinpender: 그럼  그흐름과 관계되지않은 어떤작업을하고 진행하고싶을때 compose 사용하면되겟군요
+[20160705 09:04:12] gaemi: 네네.
+[20160705 09:04:15] dunkinpender: undefined
+[20160705 09:04:24] dunkinpender: 작성해주신 소스 이거 보았습니다 ㅎㅎ
+[20160705 09:04:47] gaemi: <http://blog.danlew.net/2015/03/02/dont-break-the-chain/>
+[20160705 09:04:56] gaemi: 이거 보시면 도움이 되실겁니다.
+[20160705 09:05:11] leeyoungchan: 개미님이 설명을 잘해주셨네요..
+[20160705 09:05:16] dunkinpender: 찾앗을때 이거 봣느데 이거빼고 보았네요 ㅎㅎ
+[20160705 09:05:26] dunkinpender: 바쁘신데 감사합니다
+[20160705 09:05:28] gaemi: 말씀하신대로 flatMap 하고의 차이도 여기 나와있어요.
+[20160705 09:05:51] leeyoungchan: 덧붙히자면 compose 같은 경우 자주쓰는 Observable을 리턴하는 Observable을 별도의 메소드로 만들어서
+[20160705 09:05:58] leeyoungchan: 사용하심 됩니다.
+[20160705 09:06:44] leeyoungchan: 개미님 같은 경우  .compose(view().injectProgress())
+view().injectProgress() 는 Observable 받아 프로그래스바를 뷰에 그리고 다시 Observable을 리턴하는 메소드가 만드어져있을꺼에요.
+[20160705 09:07:54] gaemi: <@leeyoungchan>: 네네. 맞습니다 ㅎㅎㅎ
+[20160705 09:08:07] dunkinpender: 어후 어려워
+[20160705 09:08:57] gaemi: 정확하게는 injectProgress() 는 프로그레스바를 띄우고 닫아주는 오퍼레이터를 묶어서 처리하고 있습니다.
+[20160705 09:09:51] gaemi: progress 같은 반복되는 작업을 좀 편하게 구현하려고 만들었어요.
+[20160705 09:09:58] leeyoungchan: 여기저기 자주 쓰이는걸 묶어놓고 사용하는 것이군용~
+[20160705 09:10:18] gaemi: 저는 종종 그렇게 사용하고 있어요. ㅎㅎ
+[20160705 09:11:00] dunkinpender: ㅋㅋㅋ 잘모르니 소스분석도힘드네여
+[20160705 09:11:10] satsin: 오옹 편리하네요..
+[20160705 09:11:33] dunkinpender: 그럼혹시
+[20160705 09:11:40] dunkinpender: .compose(view().injectProgress())
+[20160705 09:11:45] dunkinpender: 이렇게 하면
+[20160705 09:11:58] dunkinpender: injectProgress 부분이 실행되고 다시 옵저블로 반환을하는건가요
+[20160705 09:13:39] gaemi: 우선 injectProgress 소스를 보면요…
+```
+ProgressDialog progress = progressIndicatorProvider.provide();
+		return observable -&gt; observable
+			.doOnSubscribe(progress::show)
+			.doOnUnsubscribe((Action0) progress::dismiss);
+```
+[20160705 09:13:43] gaemi: 이렇게 입니다.
+[20160705 09:14:46] gaemi: subscribe 되는순간 progress 를 띄워주고,
+unsubscribe 되는 순간 (주로 onComplete 이나 onError 가 될때겠지요) progress 를 닫아주는건데요.
+[20160705 09:15:14] gaemi: 그걸 observable 에 doOnSubscribe 와 doOnUnsubscribe 오퍼레이터를 써서 구현을 했어요.
+[20160705 09:15:16] dunkinpender: 아아
+[20160705 09:15:23] dunkinpender: 오호라
+[20160705 09:15:27] dunkinpender: 음... 저렇게 쓰는구나
+[20160705 09:15:38] gaemi: compose (injectProgress()) 가 들어가면...
+[20160705 09:16:28] gaemi: observable 에 doOnSubscribe, doOnUnsubscribe 오퍼레이터를 적용한 observable 로 변환되어서 나올거에요.
+[20160705 09:16:47] dunkinpender: 호.........
+[20160705 09:16:49] dunkinpender: 신기하군요
+[20160705 09:17:03] dunkinpender: 지금까지 그 로딩프로그래스
+[20160705 09:17:14] dunkinpender: 레트로핏으로  호출하기전에
+[20160705 09:17:17] dunkinpender: 띠워즈고
+[20160705 09:17:23] dunkinpender: onComplete에서 꺼주고
+[20160705 09:17:27] leeyoungchan: string으로 따지면 concat 같은 놈이랄까..
+[20160705 09:17:28] dunkinpender: 막 그렇게 해왔는데 ㅋㅋ
+[20160705 09:17:34] gaemi: 저렇게하면 장점이 의도가 분명해지는것도 있구요…
+또 하나는
+[20160705 09:17:36] gaemi: 아까 보신코드가 presenter 코드인데요.
+[20160705 09:17:55] gaemi: 테스트코드 보시면
+```
+@Test
+	public void testRefreshTopics() throws Exception {
+		// given
+		TopicResponse response = new TopicResponse();
+		List&lt;Topic&gt; topics = Lists.newArrayList(new Topic(), new Topic(), new Topic());
+		response.setData(topics);
+		given(imgurApi.defaultTopics()).willReturn(Observable.just(response));
+
+		// when
+		presenter.refreshTopics();
+
+		// then
+		proxy.advanceBy(1, TimeUnit.SECONDS);
+		verify(view, times(1)).bind();
+		verify(view, times(1)).injectProgress();
+		verify(view, times(1)).showTopics(topics);
+	}
+``` 이렇게 되어 있습니다.
+[20160705 09:18:02] gaemi: 테스트하기도 좀 더 쉬워져요.
+[20160705 09:18:37] gaemi: 정상적인 처리면 progress 를 띄우고 bind 도 하고 뷰도 업데이트 한다라는게 테스트코드에서 들어나거든요.
+[20160705 09:18:42] gaemi: 드러나거든요.
+[20160705 09:19:14] gaemi: 제가 에러났을때 테스트코드를 안써놓긴 했군요.. -_-;;;
+[20160705 09:19:34] satsin: rxlifecycle을 사용하고 있는걸로 보이는데 BaseMvpActivity에서 CompositeSubscription의 역활을 여쭤봐도 될까요?
+[20160705 09:19:52] gaemi: 그건 제가 잘 몰라서 썼어요 ㅎㅎㅎ
+[20160705 09:20:04] gaemi: 실제로 RxLifecycle 을 사용해보질 않았어서 ㅠㅠ
+[20160705 09:20:20] satsin: 앗 그렇군요.. 아마 동일한 역활을 하고 있는걸로 보여서 질문드렸습니당
+[20160705 09:20:29] gaemi: 예전에 구버전 RxAndroid 의 bind 랑 비슷하게 생각해서
+[20160705 09:20:55] gaemi: 그런데 <@leeyoungchan> 님이 그때 RxLifecycle 이 동일한 역할을 한다고 해주셨는데...
+[20160705 09:21:08] gaemi: 이후 소스코드를 손대지는 않았어서… 그대로 남아있었다고 보시면 됩니다.
+[20160705 09:21:12] gaemi: 빠져도 되요. ㅎㅎㅎ
+[20160705 09:22:07] dunkinpender: 어우 오늘도
+[20160705 09:22:10] dunkinpender: 많이 배우고갑니다 ㅎㅎ
+[20160705 09:22:20] satsin: 눈팅만해도 공부가 되는 유익한 채널
+[20160705 09:22:32] dunkinpender: 초고수가 넘쳐나는
+[20160705 09:27:29] leeyoungchan: 으아..-ㅁ-
+[20160705 09:27:55] leeyoungchan: 동영상 다운로드 받을 때 ..다운로드 %를 보여줄려고
+[20160705 09:28:05] leeyoungchan: 코드를 짜놨는데 작동이안되서..왜그런가 했더니
+[20160705 09:28:31] leeyoungchan: retrofit interface에 @get 아래 @Streaming 을 안붙여놔서
+[20160705 09:28:45] leeyoungchan: ...동기로 움직이고 있었구나
+[20160705 10:15:25] realignist: undefined
+[20160705 10:15:32] realignist: 아마 내일은 이걸로 이야기할 것 같아요. 늦어서 죄송합니다 ㅠㅠ
+[20160705 10:15:44] realignist: 예제는 완성되는대로 같이 GitHub에 올릴게요. :slightly_smiling_face:
+[20160705 11:18:47] gaemi: 자료 보니 내일이 기대됩니다
+[20160705 11:22:47] nobrain_steve: 오오
+[20160705 14:59:49] albot: 내일 객원으로 가고싶네용!
+[20160705 15:00:15] nobrain_steve: 객원은 언제나 내일 3-5시에 ㅎㅎ
+[20160705 15:00:49] nobrain_steve: 몇명이나 빠질지 몰라서 양해부탁드립니다 :)
+[20160705 23:14:11] albot: 옙
+[20160706 01:13:29] slackbot:
+[20160706 01:13:49] slackbot:
+[20160706 01:15:17] nobrain_steve: <!channel>
+*공지1*
+&gt; 오늘 스터디 오시기 힘드신 분들 댓글로 알려주세요. <https://github.com/gdgand/android-rxjava/issues/20>
+
+*공지2*
+&gt; 오늘 스터디 일일 객원 하실 분들 댓글로 알려주세요. <https://github.com/gdgand/android-rxjava/issues/21>
+[20160706 01:17:16] slackbot:
+[20160706 01:17:36] slackbot:
+[20160706 01:18:39] slackbot:
+[20160706 01:28:01] slackbot:
+[20160706 01:30:51] slackbot:
+[20160706 01:33:38] nobrain_steve: 오늘 스터디는 Realm 에서 스터디 영상 전체를 녹화해주기로 하셨어요~
+[20160706 01:33:50] nobrain_steve: <@dalinaum>: 맞나요? =_=
+[20160706 01:34:27] realignist: Realm에서 발표도…!
+[20160706 01:34:30] dalinaum: 네 방금 카메라 대여 확정이 왔어요
+[20160706 01:34:37] dalinaum: 무슨 타이밍이
+[20160706 01:34:39] dalinaum: 이렇게 절묘
+[20160706 01:34:44] realignist: ㅋㅋㅋㅋㅋㅋㅋㅋ
+[20160706 01:34:55] nobrain_steve: ㅋㅋㅋㅋ
+[20160706 01:35:06] nobrain_steve: <@dalinaum>: 감사합니다. :slightly_smiling_face:
+[20160706 01:52:01] kunny: ㅋㅋㅋㅋ
+[20160706 02:39:44] psymarine: 보통 저는 핸들러 사용하는 이유가
+[20160706 02:39:58] psymarine: weakHandler.sendEmptyMessageDelayed(WRONG_EFFECT, 1000)
+[20160706 02:40:38] psymarine: 딜레이 줘서 뭔가 하려구할때 사용하는데  Subject 로 이벤트 발생할때
+[20160706 02:40:55] psymarine: 딜레이줘서 이벤트 받을수 있도록 해보려고하는데 ㅡㅡ; 좋은 방법이없을가영
+[20160706 02:49:47] kunny: PublishSubject (or PublishRelay) + delay 쓰시면 될 것 같습니다.
+[20160706 02:50:55] kunny: ```
+subscription.add(Observable.just(View.VISIBLE)
+                .concatWith(Observable.just(View.GONE).delay(3, TimeUnit.SECONDS))
+                .subscribe(visibilityPubSub));
+```
+전 요렇게 쓰고있어요. 뷰 보여주는 이벤트 후 3초 후에 뷰 없애는 이벤트를 주도록 했고
+[20160706 02:51:12] kunny: complete 이벤트 후에도 계속 받아야 해서 PublishRelay 썼어요
+[20160706 02:52:03] psymarine: 아하  PublishRelay 이거 만들고 거기다가 저렇게 추가 해주신거네영
+[20160706 02:53:58] kunny: 넹넹
+[20160706 02:54:15] kunny: 실제로 뷰 상태 변화시키는 부분은 publishrelay subscribe하는쪽에서 합니다
+[20160706 02:57:07] psymarine: PublishRelay 혹시 이걸 사용하려면
+[20160706 02:57:17] psymarine: rxRelay받아야 하나영 ㅎㅎ
+[20160706 03:09:43] slackbot:
