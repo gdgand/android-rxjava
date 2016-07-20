@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RxJava in Action</string>
+    <string name="view_pager">View Pager</string>
+    <string name="view_pager_interval">View Pager with Interval</string>
+    <string name="view_pager_interval_drag_handling">View Pager with Interval (+Drag handling)</string>
+    <string name="visibility_event">Visibility Events</string>
+</resources>
