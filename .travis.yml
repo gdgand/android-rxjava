@@ -13,7 +13,7 @@ jdk:
   - oraclejdk8
 
 env:
-  - GRADLE_OPTS="-XX:MaxPermSize=4096M" CI=true
+  - GRADLE_OPTS="-Xms256m -Xmx2048m -XX:MaxPermSize=4096m -XX:+CMSClassUnloadingEnabled" JAVA_OPTS="-Xms256m -Xmx2048m -XX:MaxPermSize=4096m" MALLOC_ARENA_MAX=2 CI=true
 
 script:
   - ./gradlew clean build
