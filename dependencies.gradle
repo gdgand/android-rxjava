@@ -1,6 +1,6 @@
 ext {
     // Build SDK versions
-    buildToolsVersion = '23.0.3'
+    buildToolsVersion = '24.0.0'
     minSdkVersion = 14
     compileSdkVersion = 23
     targetSdkVersion = 22
@@ -10,11 +10,13 @@ ext {
 
     // Dependencies - Support Library
     appCompat = 
-            'com.android.support:appcompat-v7:23.4.0'
+            'com.android.support:appcompat-v7:24.0.0'
+    constraintLayout =
+            'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
     design = 
-            'com.android.support:design:23.4.0'
+            'com.android.support:design:24.0.0'
     recyclerView = 
-            'com.android.support:recyclerview-v7:23.4.0'
+            'com.android.support:recyclerview-v7:24.0.0'
 
     // Dependencies - Data handling
     eventBus =
@@ -53,28 +55,36 @@ ext {
     // Dependencies - Rx
     rxAndroid =
             'io.reactivex:rxandroid:1.2.0'
+    rxAsync =
+            'io.reactivex:rxjava-async-util:0.21.0'
+    rxBinding =
+            'com.jakewharton.rxbinding:rxbinding:0.4.0'
     rxJava =
             'io.reactivex:rxjava:1.1.5'
+    rxJavaDebug =
+            'io.reactivex:rxjava-debug:1.0.3'
     rxLifecycle =
             'com.trello:rxlifecycle:0.6.1'
     rxLifecycleComponents =
             'com.trello:rxlifecycle-components:0.6.1'
+    rxRelay =
+            'com.jakewharton.rxrelay:rxrelay:1.1.0'
     rxReplayingShare =
             'com.jakewharton.rx:replaying-share:1.0.1'
-    rxAsync =
-            'io.reactivex:rxjava-async-util:0.21.0'
-    rxJavaDebug =
-            'io.reactivex:rxjava-debug:1.0.3'
 
     // Dependencies - Stream
     lightWeightStream =
             'com.annimon:stream:1.0.9'
 
+    // Dependencies - Kotlin
+    kotlin =
+            'org.jetbrains.kotlin:kotlin-stdlib:1.0.3'
+
     // Dependencies - Test
     assertjAndroid =
             'com.squareup.assertj:assertj-android:1.1.1'
-    mockitoCore =
-            'org.mockito:mockito-core:1.10.19'
     junit =
             'junit:junit:4.12'
+    mockitoCore =
+            'org.mockito:mockito-core:1.10.19'
 }

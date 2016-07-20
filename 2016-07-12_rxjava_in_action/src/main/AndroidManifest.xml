@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidhuman.example.rxjavainaction">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ViewPagerActivity"
+            android:label="@string/view_pager" />
+
+        <activity android:name=".ViewPagerFlipIntervalActivity"
+            android:label="@string/view_pager_interval" />
+
+        <activity
+            android:name=".ViewPagerFlipIntervalDragHandlingActivity"
+            android:label="@string/view_pager_interval_drag_handling" />
+
+        <activity android:name=".VisibilityEventActivity"
+            android:label="@string/visibility_event" />
+
+    </application>
+
+</manifest>
