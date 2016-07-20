@@ -5,6 +5,7 @@ import com.gdgand.rxjava.rxjavasample.hotandcold.data.DaggerTestDataComponent;
 import com.gdgand.rxjava.rxjavasample.hotandcold.di.module.DataModule;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import rx.observers.TestSubscriber;
@@ -16,6 +17,7 @@ import javax.inject.Inject;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Ignore("Ignore e2e test by default")
 public class ImgurApiTest {
 
 	@Inject
